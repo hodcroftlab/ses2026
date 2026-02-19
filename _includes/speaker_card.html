@@ -1,0 +1,10 @@
+<div class="card speaker">
+  <img class="speaker__photo" src="{{ speaker.photo | relative_url }}" alt="Headshot of {{ speaker.name }}">
+  <div class="speaker__body">
+    <div class="speaker__name">{{ speaker.name }}</div>
+    {% if speaker.role %}<div class="speaker__role">{{ speaker.role }}</div>{% endif %}
+    {% if speaker.affiliation %}<div class="speaker__affil">{{ speaker.affiliation }}</div>{% endif %}
+    {% if speaker.talk_title %}<div class="speaker__talk">“{{ speaker.talk_title }}”</div>{% endif %}
+    {% if speaker.track %}<div class="speaker__track">{{ speaker.track }}</div>{% endif %}
+  </div>
+</div>

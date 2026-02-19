@@ -1,0 +1,29 @@
+# Sponsor logo grid. Replace placeholders with real sponsors as they commit.
+# You can add `logo:` and `url:` later; if logo is missing, we show a nice placeholder.
+
+tiers:
+  - name: "Platinum"
+    sponsors:
+      - name: "Your Platinum Sponsor"
+      - name: "Your Platinum Sponsor"
+
+  - name: "Gold"
+    sponsors:
+      - name: "Your Gold Sponsor"
+      - name: "Your Gold Sponsor"
+      - name: "Your Gold Sponsor"
+      - name: "Your Gold Sponsor"
+
+  - name: "Silver"
+    sponsors:
+      - name: "Your Silver Sponsor"
+      - name: "Your Silver Sponsor"
+      - name: "Your Silver Sponsor"
+      - name: "Your Silver Sponsor"
+
+  - name: "Bronze"
+    sponsors:
+      - name: "Your Bronze Sponsor"
+      - name: "Your Bronze Sponsor"
+      - name: "Your Bronze Sponsor"
+      - name: "Your Bronze Sponsor"

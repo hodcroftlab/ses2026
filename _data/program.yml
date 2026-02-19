@@ -1,0 +1,84 @@
+# Program overview (table) is generated from this file.
+# Edit labels, times, and cell content freely.
+
+days:
+  - key: mon
+    label: "Mon (Day 1)"
+  - key: tue
+    label: "Tue (Day 2)"
+  - key: wed
+    label: "Wed (Day 3)"
+  - key: thu
+    label: "Thu (Day 4)"
+
+rows:
+  - time: "09:00–10:30"
+    cells:
+      - {}
+      - title: "Session 1"
+        subtitle: "Surveillance & Modeling"
+      - title: "Session 4"
+        subtitle: "Host–Virus Mechanisms"
+      - title: "Interactive workshop"
+        subtitle: "Student-led"
+
+  - time: "10:30–11:00"
+    cells:
+      - {}
+      - title: "Coffee & tea"
+      - title: "Coffee & tea"
+      - title: "Coffee & tea"
+
+  - time: "11:00–12:30"
+    cells:
+      - {}
+      - title: "Session 2"
+        subtitle: "Sero-surveillance"
+      - title: "Session 5"
+        subtitle: "Clinical aspects"
+      - title: "Interactive workshop"
+        subtitle: "Student-led"
+
+  - time: "12:30–13:30"
+    cells:
+      - {}
+      - title: "Lunch"
+      - title: "Workshop"
+      - title: "Lunch"
+
+  - time: "13:30–15:00"
+    cells:
+      - {}
+      - title: "Session 3"
+        subtitle: "Bioinformatics"
+      - title: "Session 6"
+        subtitle: "Discussion forum"
+      - {}
+
+  - time: "15:00–16:00"
+    cells:
+      - {}
+      - title: "Coffee & tea + Poster session"
+      - title: "Coffee & tea + Poster session"
+      - {}
+
+  - time: "16:00–17:00"
+    cells:
+      - title: "Conference registration"
+      - title: "Networking / activity"
+      - title: "Networking / activity"
+      - {}
+
+  - time: "17:00–18:00"
+    cells:
+      - title: "Opening keynote"
+      - {}
+      - {}
+      - {}
+
+  - time: "18:00–21:00"
+    cells:
+      - title: "Welcome dinner"
+      - title: "Dinner"
+      - title: "Closing dinner & entertainment"
+      - {}

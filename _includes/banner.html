@@ -1,0 +1,11 @@
+{% if site.event.abstract_submission.enabled %}
+<div class="banner" role="region" aria-label="Abstract submission announcement">
+  <div class="container banner__inner">
+    <div>
+      <strong>Abstract submission:</strong>
+      <span>Deadline {{ site.event.abstract_submission.deadline }}</span>
+    </div>
+    <a class="btn btn--small btn--ghost" href="{{ site.event.abstract_submission.url }}" target="_blank" rel="noopener">Submit</a>
+  </div>
+</div>
+{% endif %}

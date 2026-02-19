@@ -1,0 +1,30 @@
+<div class="table-wrap" role="region" aria-label="Program overview table">
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Time</th>
+        {% for day in site.data.program.days %}
+          <th>{{ day.label }}</th>
+        {% endfor %}
+      </tr>
+    </thead>
+    <tbody>
+      {% for row in site.data.program.rows %}
+        <tr>
+          <td class="time">{{ row.time }}</td>
+          {% for cell in row.cells %}
+            <td>
+              {% if cell.title %}
+                <div class="cell__title">{{ cell.title }}</div>
+                {% if cell.subtitle %}<div class="cell__sub">{{ cell.subtitle }}</div>{% endif %}
+              {% else %}
+                <span class="muted">—</span>
+              {% endif %}
+            </td>
+          {% endfor %}
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+<p class="note">Program is subject to change; final details will be announced on this site.</p>

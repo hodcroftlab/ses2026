@@ -1,0 +1,47 @@
+title: "1st Swiss Enterovirus Symposium"
+tagline: "Enterovirus Research and Surveillance: Strengthening Networks in Europe and Beyond"
+description: "A focused, in-person symposium uniting virology, epidemiology, bioinformatics, and clinical science."
+# GitHub Pages under hodcroftlab/ses2026:
+url: "https://hodcroftlab.github.io"
+baseurl: "/ses2026"
+
+# Event metadata
+event:
+  name: "1st Swiss Enterovirus Symposium"
+  dates: "5–8 October 2026"
+  location_short: "Disentis, Switzerland"
+  venue: "Historic monastery in Disentis"
+  contact_email: "eve-group@swisstph.ch"
+  organizer: "EVE Group, Swiss TPH & University of Basel"
+  registration_url: "#"
+  abstract_submission:
+    enabled: true
+    deadline: "TBD"
+    url: "#"
+
+# Design options
+design:
+  colors:
+    teal: "#2AA7B8"
+    sand: "#F3EFE6"
+    ink: "#1F2A33"
+    muted: "#5D6B78"
+    line: "#CDBFAF"
+    accent: "#B08B62"
+  hero_image: "/assets/img/hero.jpg"
+
+markdown: kramdown
+permalink: pretty
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+

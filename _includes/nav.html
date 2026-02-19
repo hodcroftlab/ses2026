@@ -1,0 +1,18 @@
+<header class="nav">
+  <div class="container nav__inner">
+    <a class="nav__brand" href="{{ '/' | relative_url }}#top">
+      <span class="nav__brand-title">{{ site.event.name }}</span>
+      <span class="nav__brand-subtitle">{{ site.event.dates }} · {{ site.event.location_short }}</span>
+    </a>
+
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#program">Program</a>
+      <a href="#speakers">Speakers</a>
+      <a href="#venue">Venue</a>
+      <a href="#sponsors">Sponsors</a>
+      <a href="#contact">Contact</a>
+      <a class="btn btn--small" href="{{ site.event.registration_url }}" target="_blank" rel="noopener">Register</a>
+    </nav>
+  </div>
+</header>
