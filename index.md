@@ -160,6 +160,7 @@ title: "Home"
         </div>
       </div>
     {% endfor %}
+  </div>
 </section>
 
 <section id="contact" class="section">
@@ -179,10 +180,15 @@ title: "Home"
 
       <div class="panel panel--half">
         <h3>Registration</h3>
-        <p class="muted">Registration will open via an external system.</p>
-        <p><a class="btn btn--ghost" href="{{ site.event.registration_url }}" target="_blank" rel="noopener">Go to registration</a></p>
+        <p class="muted">Registration will happen via our partner.</p>
+        {% if site.event.registration_open %}
+          <p><a class="btn btn--ghost" href="{{ site.event.registration_url }}" target="_blank" rel="noopener">Go to registration</a></p>
+        {% else %}
+          <p class="muted"><em>Registration is not yet open - please stay tuned!</em></p>
+        {% endif %}
         <p class="muted">Tip: set <code>event.registration_url</code> in <code>_config.yml</code> once you have the link.</p>
       </div>
     </div>
   </div>
 </section>
+

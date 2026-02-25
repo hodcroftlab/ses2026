@@ -200,6 +200,9 @@ a:hover{ text-decoration: underline; }
   box-shadow: var(--shadow);
   padding: 22px;
 }
+#contact em {
+  font-style: italic;
+}
 @media (min-width: 860px){
   .panel--half{ grid-column: span 6; }
   .panel--third{ grid-column: span 4; }
