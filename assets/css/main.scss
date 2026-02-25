@@ -118,6 +118,24 @@ a:hover{ text-decoration: underline; }
   color: var(--muted);
   font-weight: 600;
 }
+
+.hero__meta a {
+  color: #1d7783;
+  //text-decoration: underline;
+  font-weight: 500;
+}
+
+.hero__meta a::after {
+  content: " ↗";
+  font-size: 0.8em;
+  margin-left: 0.3em;
+  opacity: 0.7;
+}
+
+.hero__meta a:hover {
+  text-decoration: none;
+  opacity: 0.85;
+}
 .hero__actions{
   margin-top: 18px;
   display:flex;

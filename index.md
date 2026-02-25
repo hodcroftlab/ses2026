@@ -15,7 +15,16 @@ title: "Home"
         <p>{{ site.tagline }}</p>
         <div class="hero__meta">
           <span><strong>Dates:</strong> {{ site.event.dates }}</span>
-          <span><strong>Venue:</strong> {{ site.event.venue }}</span>
+          <span>
+            <strong>Venue:</strong>
+            {% if site.event.venue_url %}
+              <a href="{{ site.event.venue_url }}" target="_blank" rel="noopener">
+                {{ site.event.venue }}
+              </a>
+            {% else %}
+              {{ site.event.venue }}
+            {% endif %}
+          </span>
           <span><strong>Location:</strong> {{ site.event.location_short }}</span>
         </div>
 
