@@ -108,8 +108,17 @@ title: "Home"
     <div class="grid">
       <div class="panel panel--half">
         <h3>Location</h3>
-        <p><strong>{{ site.event.venue }}</strong></p>
+        <p><strong>
+          {% if site.event.venue_url %}
+            <a href="{{ site.event.venue_url }}" target="_blank" rel="noopener">
+              {{ site.event.venue_name }}
+            </a>
+          {% else %}
+            {{ site.event.venue_name }}
+          {% endif %}
+        </strong></p>
         <p class="muted">{{ site.event.location_short }}</p>
+        <p class="muted">{{ site.event.venue_description }}</p>
 
         <h3 style="margin-top:18px;">Travel & accommodation</h3>
         <p class="muted">Placeholder: add travel tips, nearest train station, directions, and accommodation notes here.</p>
