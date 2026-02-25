@@ -60,6 +60,15 @@ Speaker images live at `assets/img/speakers/*.png`. Placeholders are included; y
 Edit `_data/program.yml`. The table is generated from structured YAML.
 
 ### Abstract deadline banner (on/off)
+Add the URL and toggle this in `_config.yml`:
+
+```yml
+event:
+  registration_url: "#"
+  registration_open: false
+```
+
+### Registration button (on/off)
 Toggle this in `_config.yml`:
 
 ```yml
