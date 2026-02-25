@@ -20,7 +20,9 @@ title: "Home"
         </div>
 
         <div class="hero__actions">
-          <a class="btn" href="{{ site.event.registration_url }}" target="_blank" rel="noopener">Register</a>
+          {% if site.event.registration_open %}
+            <a class="btn" href="{{ site.event.registration_url }}" target="_blank" rel="noopener">Register</a>
+          {% endif %}
           <a class="btn btn--ghost" href="#program">View program</a>
           <a class="btn btn--ghost" href="#speakers">Speakers</a>
           <a class="btn btn--ghost" href="#contact">Contact</a>

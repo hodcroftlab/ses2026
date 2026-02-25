@@ -12,7 +12,9 @@
       <a href="#venue">Venue</a>
       <a href="#sponsors">Sponsors</a>
       <a href="#contact">Contact</a>
-      <a class="btn btn--small" href="{{ site.event.registration_url }}" target="_blank" rel="noopener">Register</a>
+      {% if site.event.registration_open %}
+        <a class="btn btn--small" href="{{ site.event.registration_url }}" target="_blank" rel="noopener">Register</a>
+      {% endif %}
     </nav>
   </div>
 </header>

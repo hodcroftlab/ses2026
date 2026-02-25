@@ -14,8 +14,9 @@ event:
   contact_email: "eve-group@swisstph.ch"
   organizer: "EVE Group, Swiss TPH & University of Basel"
   registration_url: "#"
+  registration_open: false
   abstract_submission:
-    enabled: true
+    enabled: false
     deadline: "TBD"
     url: "#"
 
