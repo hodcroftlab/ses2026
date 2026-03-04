@@ -16,14 +16,17 @@ tiers:
 
   - name: "Silver"
     sponsors:
-      - name: "Your Silver Sponsor"
+      - name: "SIB"
+        logo: "/assets/img/sponsors/sib.jpg"
       - name: "Your Silver Sponsor"
       - name: "Your Silver Sponsor"
       - name: "Your Silver Sponsor"
 
   - name: "Bronze"
     sponsors:
-      - name: "Your Bronze Sponsor"
-      - name: "Your Bronze Sponsor"
+      - name: "BioConcept"
+        logo: "/assets/img/sponsors/BioConcept.jpg"
+        url: "https://www.bioconcept.ch"
+      - name: "Microsynth"
       - name: "Your Bronze Sponsor"
       - name: "Your Bronze Sponsor"
