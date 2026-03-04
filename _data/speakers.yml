@@ -1,18 +1,5 @@
 # Add/modify speakers here. The site auto-renders cards.
 # photo paths should be relative to the repo root, e.g. /assets/img/speakers/javier-martin.jpg
-- slug: emma-hodcroft
-  name: "Prof. Emma B. Hodcroft"
-  role: "Closing Keynote"
-  affiliation: "Swiss Tropical and Public Health Institute (Swiss TPH), Switzerland"
-  talk_title: "Phylodynamics of non-polio enteroviruses: tracking recombination, emergence, and global spread in real time."
-  photo: "/assets/img/speakers/emma-hodcroft.jpg"
-
-- slug: heli-harvala
-  name: "Dr. Heli Harvala"
-  role: "Keynote"
-  affiliation: "UK Health Security Agency (UKHSA), United Kingdom"
-  talk_title: "Enterovirus surveillance in the UK: integrating clinical, environmental, and genomic data for outbreak preparedness."
-  photo: "/assets/img/speakers/heli-harvala.jpg"
 
 - slug: kevin-messacar
   name: "Prof. Kevin Messacar"
@@ -21,19 +8,26 @@
   talk_title: "Enterovirus D68 and acute flaccid myelitis: clinical challenges, epidemiology, and future directions."
   photo: "/assets/img/speakers/kevin-messacar.jpg"
 
-- slug: thea-kolsen-fischer
-  name: "Prof. Thea Kølsen Fischer"
-  role: "Keynote"
-  affiliation: "Co-founder of the European Non-Polio Enterovirus Network (ENPEN)"
-  talk_title: "Global patterns of enterovirus circulation and the role of ENPEN in strengthening European surveillance."
-  photo: "/assets/img/speakers/thea-kolsen-fischer.jpg"
+# - slug: heli-harvala
+#   name: "Dr. Heli Harvala"
+#   role: "Keynote"
+#   affiliation: "UK Health Security Agency (UKHSA), United Kingdom"
+#   talk_title: "Enterovirus surveillance in the UK: integrating clinical, environmental, and genomic data for outbreak preparedness."
+#   photo: "/assets/img/speakers/heli-harvala.jpg"
 
-- slug: javier-martin
-  name: "Dr. Javier Martin"
-  role: "Session 1: Surveillance & Modeling"
-  affiliation: "National Institute for Biological Standards and Control (NIBSC), UK"
-  talk_title: "Global enterovirus and polio surveillance: challenges in wastewater monitoring and emerging strategies for early outbreak detection."
-  photo: "/assets/img/speakers/javier-martin.jpg"
+# - slug: thea-kolsen-fischer
+#   name: "Prof. Thea Kølsen Fischer"
+#   role: "Keynote"
+#   affiliation: "Co-founder of the European Non-Polio Enterovirus Network (ENPEN)"
+#   talk_title: "Global patterns of enterovirus circulation and the role of ENPEN in strengthening European surveillance."
+#   photo: "/assets/img/speakers/thea-kolsen-fischer.jpg"
+
+# - slug: javier-martin
+#   name: "Dr. Javier Martin"
+#   role: "Session 1: Surveillance & Modeling"
+#   affiliation: "National Institute for Biological Standards and Control (NIBSC), UK"
+#   talk_title: "Global enterovirus and polio surveillance: challenges in wastewater monitoring and emerging strategies for early outbreak detection."
+#   photo: "/assets/img/speakers/javier-martin.jpg"
 
 - slug: katharina-roeltgen
   name: "Prof. Katharina Röltgen"
@@ -42,23 +36,30 @@
   talk_title: "Humoral immunity to enteroviruses across diverse serum cohorts from Switzerland, Ghana, and Tanzania."
   photo: "/assets/img/speakers/katharina-roeltgen.jpg"
 
-- slug: florian-zwagemaker
-  name: "Florian Zwagemaker"
-  role: "Session 3: Bioinformatics"
-  affiliation: "National Institute for Public Health and the Environment (RIVM), Netherlands"
-  talk_title: "Computational tools and pipelines for accurate enterovirus typing."
-  photo: "/assets/img/speakers/florian-zwagemaker.jpg"
+# - slug: florian-zwagemaker
+#   name: "Florian Zwagemaker"
+#   role: "Session 3: Bioinformatics"
+#   affiliation: "National Institute for Public Health and the Environment (RIVM), Netherlands"
+#   talk_title: "Computational tools and pipelines for accurate enterovirus typing."
+#   photo: "/assets/img/speakers/florian-zwagemaker.jpg"
 
-- slug: lea-gaume
-  name: "Dr. Léa Gaume"
-  role: "Session 4: Host–Virus Mechanisms"
-  affiliation: "Royal College of Surgeons in Ireland (RCSI), Ireland"
-  talk_title: "Mechanisms enabling neurotropic enteroviruses to cross the human blood–brain barrier."
-  photo: "/assets/img/speakers/lea-gaume.jpg"
+# - slug: lea-gaume
+#   name: "Dr. Léa Gaume"
+#   role: "Session 4: Host–Virus Mechanisms"
+#   affiliation: "Royal College of Surgeons in Ireland (RCSI), Ireland"
+#   talk_title: "Mechanisms enabling neurotropic enteroviruses to cross the human blood–brain barrier."
+#   photo: "/assets/img/speakers/lea-gaume.jpg"
 
-- slug: jan-albert
-  name: "Prof. Jan Albert"
-  role: "Session 5: Clinical Aspects"
-  affiliation: "Karolinska University Hospital (KI), Sweden"
-  talk_title: "Integrating viral genomics into clinical care: lessons from enterovirus diagnostics and patient management."
-  photo: "/assets/img/speakers/jan-albert.jpg"
+# - slug: jan-albert
+#   name: "Prof. Jan Albert"
+#   role: "Session 5: Clinical Aspects"
+#   affiliation: "Karolinska University Hospital (KI), Sweden"
+#   talk_title: "Integrating viral genomics into clinical care: lessons from enterovirus diagnostics and patient management."
+#   photo: "/assets/img/speakers/jan-albert.jpg"
+
+- slug: emma-hodcroft
+  name: "Prof. Emma B. Hodcroft"
+  role: "Closing Keynote"
+  affiliation: "Swiss Tropical and Public Health Institute (Swiss TPH), Switzerland"
+  talk_title: "Phylodynamics of non-polio enteroviruses: tracking recombination, emergence, and global spread in real time."
+  photo: "/assets/img/speakers/emma-hodcroft.jpg"
