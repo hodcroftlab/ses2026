@@ -75,7 +75,7 @@ title: "Home"
   <div class="container">
     <div class="section__head">
       <h2>Program overview</h2>
-      <p class="section__sub">This table is generated from <code>_data/program.yml</code>. Update that file as the agenda is finalized.</p>
+      <p class="section__sub">Our program aims to combine world-class plenaries, submitted talks, and interactive poster and discussion sessions, finalized by a skill-building workshop.</p>
     </div>
     {% include program_table.html %}
   </div>
@@ -85,7 +85,7 @@ title: "Home"
   <div class="container">
     <div class="section__head">
       <h2>Confirmed speakers</h2>
-      <p class="section__sub">Speaker cards are generated from <code>_data/speakers.yml</code>. Add more speakers any time.</p>
+      <p class="section__sub"><i>Stay tuned as we confirm more speakers!</i></p>
     </div>
 
     <div class="grid">
@@ -141,7 +141,7 @@ title: "Home"
   <div class="container">
     <div class="section__head">
       <h2>Sponsors</h2>
-      <p class="section__sub">We’re grateful for partners who support enterovirus research, training, and European collaboration. Add logos in <code>_data/sponsors.yml</code>.</p>
+      <p class="section__sub">We’re grateful for partners who support enterovirus research, training, and European collaboration.</p>
     </div>
 
     {% for tier in site.data.sponsors.tiers %}
@@ -154,7 +154,7 @@ title: "Home"
                 <img src="{{ s.logo | relative_url }}" alt="{{ s.name }} logo" style="max-width:100%; max-height:52px;">
               </a>
             {% else %}
-              <div class="sponsor">{{ s.name }}</div>
+              <a class="sponsor" href="mailto:eve-group@swisstph.ch" style="border-style:solid;">{{ s.name }}</a>
             {% endif %}
           {% endfor %}
         </div>
@@ -171,12 +171,28 @@ title: "Home"
     </div>
 
     <div class="grid">
+
       <div class="panel panel--half">
         <h3>Organizers</h3>
-        <p class="muted">{{ site.event.organizer }}</p>
+        <div style="display:flex; flex-wrap:wrap; gap:16px; margin-bottom:16px;">
+          {% assign organizers = "Prof Emma Hodcroft,emma-hodcroft|Ms Nadia Neuner-Jehle,nadia-neuner-jehle|Ms Nosihle Msomi,nosihle-msomi|Mr Keno Strotjohann,keno-strotjohann" | split: "|" %}
+          {% for org in organizers %}
+            {% assign parts = org | split: "," %}
+            <div style="display:flex; flex-direction:column; align-items:center; gap:6px; width:80px; text-align:center;">
+              <img
+                src="{{ '/assets/img/speakers/' | append: parts[1] | append: '.jpg' | relative_url }}"
+                alt="{{ parts[0] }}"
+                style="width:60px; height:60px; border-radius:50%; object-fit:cover; object-position:center;"
+              >
+              <span style="font-size:0.75rem; line-height:1.2;">{{ parts[0] }}</span>
+            </div>
+          {% endfor %}
+        </div>
+        <p class="muted">...and with help from the rest of the <a href="https://eve-lab.org" target="_blank" rel="noopener">EVE Lab</a>.</p>
         <p><strong>Email:</strong> <a href="mailto:{{ site.event.contact_email }}">{{ site.event.contact_email }}</a></p>
-        <p class="muted">Placeholder: add organizer names, roles, and acknowledgements here.</p>
       </div>
+
+
 
       <div class="panel panel--half">
         <h3>Registration</h3>
@@ -186,7 +202,7 @@ title: "Home"
         {% else %}
           <p class="muted"><em>Registration is not yet open - please stay tuned!</em></p>
         {% endif %}
-        <p class="muted">Tip: set <code>event.registration_url</code> in <code>_config.yml</code> once you have the link.</p>
+        <!-- <p class="muted">Tip: set <code>event.registration_url</code> in <code>_config.yml</code> once you have the link.</p> -->
       </div>
     </div>
   </div>
