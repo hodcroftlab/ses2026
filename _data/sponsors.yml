@@ -16,14 +16,22 @@ tiers:
 
   - name: "Silver"
     sponsors:
-      - name: "Your Silver Sponsor"
-      - name: "Your Silver Sponsor"
+      - name: "SIB"
+        logo: "/assets/img/sponsors/sib.jpg"
+        url: "https://www.sib.swiss/"
+      - name: "Nikon BioImaging Lab"
+        logo: "/assets/img/sponsors/Nikon.png"
+        url: "https://www.microscope.healthcare.nikon.com/en_EU/bioimaging-centers/nikon-bioimaging-labs/europe"
       - name: "Your Silver Sponsor"
       - name: "Your Silver Sponsor"
 
   - name: "Bronze"
     sponsors:
-      - name: "Your Bronze Sponsor"
-      - name: "Your Bronze Sponsor"
+      - name: "BioConcept"
+        logo: "/assets/img/sponsors/BioConcept.jpg"
+        url: "https://www.bioconcept.ch"
+      - name: "Microsynth"
+        logo: "/assets/img/sponsors/Microsynth.png"
+        url: "https://www.microsynth.com/"
       - name: "Your Bronze Sponsor"
       - name: "Your Bronze Sponsor"

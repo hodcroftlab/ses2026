@@ -84,7 +84,7 @@ title: "Home"
 <section id="speakers" class="section">
   <div class="container">
     <div class="section__head">
-      <h2>Targeted speakers</h2>
+      <h2>Confirmed speakers</h2>
       <p class="section__sub">Speaker cards are generated from <code>_data/speakers.yml</code>. Add more speakers any time.</p>
     </div>
 
