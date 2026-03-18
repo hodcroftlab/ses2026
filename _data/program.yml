@@ -43,7 +43,7 @@ rows:
     cells:
       - {}
       - title: "Lunch"
-      - title: "Workshop"
+      - title: "Lunch"
       - title: "Lunch"
 
   - time: "13:30–15:00"

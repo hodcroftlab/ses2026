@@ -4,15 +4,15 @@
 tiers:
   - name: "Platinum"
     sponsors:
-      - name: "Your Platinum Sponsor"
-      - name: "Your Platinum Sponsor"
+      - name: "Become a Platinum Sponsor!"
+      - name: "Become a Platinum Sponsor!"
 
   - name: "Gold"
     sponsors:
-      - name: "Your Gold Sponsor"
-      - name: "Your Gold Sponsor"
-      - name: "Your Gold Sponsor"
-      - name: "Your Gold Sponsor"
+      - name: "Become a Gold Sponsor!"
+      - name: "Become a Gold Sponsor!"
+      - name: "Become a Gold Sponsor!"
+      - name: "Become a Gold Sponsor!"
 
   - name: "Silver"
     sponsors:
@@ -22,8 +22,8 @@ tiers:
       - name: "Nikon BioImaging Lab"
         logo: "/assets/img/sponsors/Nikon.png"
         url: "https://www.microscope.healthcare.nikon.com/en_EU/bioimaging-centers/nikon-bioimaging-labs/europe"
-      - name: "Your Silver Sponsor"
-      - name: "Your Silver Sponsor"
+      - name: "Become a Silver Sponsor!"
+      - name: "Become a Silver Sponsor!"
 
   - name: "Bronze"
     sponsors:
@@ -33,5 +33,5 @@ tiers:
       - name: "Microsynth"
         logo: "/assets/img/sponsors/Microsynth.png"
         url: "https://www.microsynth.com/"
-      - name: "Your Bronze Sponsor"
-      - name: "Your Bronze Sponsor"
+      - name: "Become a Bronze Sponsor!"
+      - name: "Become a Bronze Sponsor!"
