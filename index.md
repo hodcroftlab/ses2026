@@ -10,7 +10,7 @@ title: "Home"
     <div class="hero__card">
       <div class="hero__img" style="background-image:url('{{ site.design.hero_image | relative_url }}');"></div>
       <div class="hero__content">
-        <div class="kicker">In-person · 60–80 participants · Early-career friendly</div>
+        <div class="kicker">In-person · 60-80 participants · Early-career friendly</div>
         <h1>{{ site.event.name }}</h1>
         <p>{{ site.tagline }}</p>
         <div class="hero__meta">
@@ -62,7 +62,7 @@ title: "Home"
         <h3>Format</h3>
         <ul>
           <li>Keynotes, contributed talks, and poster sessions</li>
-          <li>Interactive workshops (Nextstrain, Nextclade, Pathoplexus)</li>
+          <li>Interactive workshops (Nextclade, Pathoplexus)</li>
           <li>Structured discussion forum + networking</li>
           <li><strong>In-person only</strong> to maximize collaboration</li>
         </ul>
@@ -142,7 +142,7 @@ title: "Home"
           <li>Single, double, and triple rooms available*</li>
           <li>All meals included</li>
           <li>Simple, comfortable rooms in the monastery setting</li>
-          <li>A small number may be housed nearby (1–2 min walk away)</li>
+          <li>A small number may be housed nearby (1-2 min walk away)</li>
         </ul>
         <p class="muted">
           <strong>Registration covers accommodation, meals, materials, and workshops.</strong>
@@ -170,7 +170,7 @@ title: "Home"
           <li>Welcome reception and all meals included</li>
           <li>Keynote lectures and talks selected from abstracts</li>
           <li>Poster sessions and networking opportunities</li>
-          <li>Interactive workshop on Day 4 (Nextstrain, Nextclade or Pathoplexus, TBD)</li>
+          <li>Interactive workshop on Day 4 (Nextclade or Pathoplexus, TBD)</li>
         </ul> -->
 
 

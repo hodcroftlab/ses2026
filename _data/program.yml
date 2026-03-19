@@ -12,24 +12,24 @@ days:
     label: "Thu (Day 4)"
 
 rows:
-  - time: "09:00–10:30"
+  - time: "09:00-10:30"
     cells:
       - {}
       - title: "Session 1"
         subtitle: "Epidemiology & Modeling"
       - title: "Session 4"
-        subtitle: "Virus–Host Interactions"
+        subtitle: "Virus-Host Interactions"
       - title: "Hands-on Workshop"
-        subtitle: "Nextclade / Pathplexus"
+        subtitle: "Nextclade / Pathoplexus"
 
-  - time: "10:30–11:00"
+  - time: "10:30-11:00"
     cells:
       - {}
       - title: "Coffee & Networking"
       - title: "Coffee & Networking"
       - title: "Coffee & Networking"
 
-  - time: "11:00–12:30"
+  - time: "11:00-12:30"
     cells:
       - {}
       - title: "Session 2"
@@ -37,16 +37,16 @@ rows:
       - title: "Session 5"
         subtitle: "Clinical Insights"
       - title: "Hands-on Workshop"
-        subtitle: "Nextclade / Pathplexus"
+        subtitle: "Nextclade / Pathoplexus"
 
-  - time: "12:30–13:30"
+  - time: "12:30-13:30"
     cells:
       - {}
       - title: "Lunch Break"
       - title: "Lunch Break"
       - title: "Lunch Break"
 
-  - time: "13:30–15:00"
+  - time: "13:30-15:00"
     cells:
       - {}
       - title: "Session 3"
@@ -55,28 +55,28 @@ rows:
         subtitle: "Discussion & Forum"
       - {}
 
-  - time: "15:00–16:00"
+  - time: "15:00-16:00"
     cells:
       - {}
       - title: "Coffee & Posters"
       - title: "Coffee & Posters"
       - {}
 
-  - time: "16:00–17:00"
+  - time: "16:00-17:00"
     cells:
       - title: "Conference Registration"
       - title: "Activity"
       - title: "Activity"
       - {}
 
-  - time: "17:00–18:00"
+  - time: "17:00-18:00"
     cells:
       - title: "Opening Keynote"
       - {}
       - {}
       - {}
 
-  - time: "18:00–21:00"
+  - time: "18:00-21:00"
     cells:
       - title: "Welcome Dinner"
       - title: "Dinner"
