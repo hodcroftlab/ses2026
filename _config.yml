@@ -25,9 +25,9 @@ event:
   venue_map:
     enabled: true  # For future use if you add the interactive map
     travel:
-      train_duration_zurich: "2.5��3 hours"
-      train_duration_basel: "3–3.5 hours"
-      walk_duration: "10–15 minutes"
+      train_duration_zurich: "2.5 hours"
+      train_duration_basel: "3.5 hours"
+      walk_duration: "10 minutes"
 
 # Design options
 design:
