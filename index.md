@@ -121,7 +121,7 @@ title: "Home"
         <p class="muted">{{ site.event.venue_description }}</p>
 
         <h3 style="margin-top:18px;">Travel & accommodation</h3>
-        <p class="muted">Placeholder: add travel tips, nearest train station, directions, and accommodation notes here.</p>
+        {% include venue_map.html %}
       </div>
 
       <div class="panel panel--half">

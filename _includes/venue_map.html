@@ -1,0 +1,42 @@
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV/XN/WLcE=" crossorigin=""></script>
+
+<div id="venue-map" style="height:320px;width:100%;border-radius:6px;margin-top:12px;"></div>
+
+<script>
+(function () {
+  var map = L.map('venue-map').setView([46.706, 8.855], 16);
+
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+    maxZoom: 19
+  }).addTo(map);
+
+  var routeUrl = '{{ "/assets/data/train-route.geojson" | relative_url }}';
+
+  fetch(routeUrl)
+    .then(function (r) { return r.json(); })
+    .then(function (geojson) {
+      var routeLayer = L.geoJSON(geojson, {
+        style: { color: '#2AA7B8', weight: 4, opacity: 0.9 }
+      }).addTo(map);
+
+      map.fitBounds(routeLayer.getBounds(), { padding: [30, 30] });
+
+      var coords = geojson.geometry.coordinates;
+      var start  = coords[0];
+      var end    = coords[coords.length - 1];
+
+      L.marker([start[1], start[0]]).addTo(map)
+        .bindPopup('<strong>Disentis/Mustér Train Station</strong>');
+
+      L.circleMarker([end[1], end[0]], {
+        radius: 8, color: '#2AA7B8', fillColor: '#2AA7B8', fillOpacity: 0.9
+      }).addTo(map)
+        .bindPopup('<strong>Hotel Kloster Disentis</strong>');
+    })
+    .catch(function (err) {
+      console.error('Failed to load train route:', err);
+    });
+}());
+</script>
