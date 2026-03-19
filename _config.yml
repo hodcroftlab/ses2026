@@ -32,7 +32,7 @@ design:
     muted: "#5D6B78"
     line: "#CDBFAF"
     accent: "#B08B62"
-  hero_image: "/assets/img/hero.jpg"
+  hero_image: "/assets/img/hero_cropped.jpg"
 
 markdown: kramdown
 permalink: pretty
