@@ -139,8 +139,8 @@ title: "Home"
         <h3>Accommodation & costs</h3>
         <p class="muted">Most participants will stay at Hotel Kloster Disentis, so meals, talks, and poster sessions all take place in the same location.</p>
         <ul class="muted">
-          <li>Single, double, and triple rooms available</li>
-          <li>Breakfast included</li>
+          <li>Single, double, and triple rooms available*</li>
+          <li>All meals included</li>
           <li>Simple, comfortable rooms in the monastery setting</li>
           <li>A small number may be housed nearby (1–2 min walk away)</li>
         </ul>
@@ -148,17 +148,32 @@ title: "Home"
           <strong>Registration covers accommodation, meals, materials, and workshops.</strong>
           Travel to Disentis is not included. We offer a limited number of travel grants for students with limited funds. Details will be announced when registration opens.
         </p>
+        <p class="muted">
+          <i>* Student registration will be housed in double and triple rooms</i>
+        </p>
 
-        <h3 style="margin-top:18px;">At a Glance</h3>
+        <h3 style="margin-top:18px;">Accessibility</h3>
+        <p class="muted">Most main conference areas are accessible. As a historic building, some areas may involve stairs or uneven floors. Please <a href="mailto:{{ site.event.contact_email }}">reach out in advance</a> if you have specific requirements so we can help coordinate.</p>
+
+        <h3 style="margin-top:18px;">Activities</h3>
+        <p class="muted">
+          To enable networking and help build up connections between participants, we plan to make the most of our unique Swiss surroundings by incorporating activity options (included in registration) - stay tuned to find out more!
+        </p>
+
+        <h3 style="margin-top:18px;">Travel in Switzerland</h3>
+        <p class="muted">
+          Train tickets in Switzerland can be expensive; booking in advance can allow you to save money. A flexible ticket from Zurich airport to Disentis can cost 71CHF. A day-saver ticket booked in advance could be as low as 52CHF - check for them on the <a href="https://www.sbb.ch/en/offers/saver-day-pass">SBB website</a>.
+        </p>
+
+        <!-- <h3 style="margin-top:18px;">At a Glance</h3>
         <ul class="muted">
           <li>Welcome reception and all meals included</li>
           <li>Keynote lectures and talks selected from abstracts</li>
           <li>Poster sessions and networking opportunities</li>
           <li>Interactive workshop on Day 4 (Nextstrain, Nextclade or Pathoplexus, TBD)</li>
-        </ul>
+        </ul> -->
 
-        <h3 style="margin-top:18px;">Accessibility</h3>
-        <p class="muted">Most main conference areas are accessible. As a historic building, some areas may involve stairs or uneven floors. Please <a href="mailto:{{ site.event.contact_email }}">reach out in advance</a> if you have specific requirements so we can help coordinate.</p>
+
       </div>
     </div>
   </div>
