@@ -16,69 +16,69 @@ rows:
     cells:
       - {}
       - title: "Session 1"
-        subtitle: "Surveillance & Modeling"
+        subtitle: "Epidemiology & Modeling"
       - title: "Session 4"
-        subtitle: "Host–Virus Mechanisms"
-      - title: "Interactive workshop"
-        subtitle: "Student-led"
+        subtitle: "Virus–Host Interactions"
+      - title: "Hands-on Workshop"
+        subtitle: "Nextclade / Pathplexus"
 
   - time: "10:30–11:00"
     cells:
       - {}
-      - title: "Coffee & tea"
-      - title: "Coffee & tea"
-      - title: "Coffee & tea"
+      - title: "Coffee & Networking"
+      - title: "Coffee & Networking"
+      - title: "Coffee & Networking"
 
   - time: "11:00–12:30"
     cells:
       - {}
       - title: "Session 2"
-        subtitle: "Sero-surveillance"
+        subtitle: "Serological Surveillance"
       - title: "Session 5"
-        subtitle: "Clinical aspects"
-      - title: "Interactive workshop"
-        subtitle: "Student-led"
+        subtitle: "Clinical Insights"
+      - title: "Hands-on Workshop"
+        subtitle: "Nextclade / Pathplexus"
 
   - time: "12:30–13:30"
     cells:
       - {}
-      - title: "Lunch"
-      - title: "Lunch"
-      - title: "Lunch"
+      - title: "Lunch Break"
+      - title: "Lunch Break"
+      - title: "Lunch Break"
 
   - time: "13:30–15:00"
     cells:
       - {}
       - title: "Session 3"
-        subtitle: "Bioinformatics"
+        subtitle: "Bioinformatics & Tools"
       - title: "Session 6"
-        subtitle: "Discussion forum"
+        subtitle: "Discussion & Forum"
       - {}
 
   - time: "15:00–16:00"
     cells:
       - {}
-      - title: "Coffee & tea + Poster session"
-      - title: "Coffee & tea + Poster session"
+      - title: "Coffee & Posters"
+      - title: "Coffee & Posters"
       - {}
 
   - time: "16:00–17:00"
     cells:
-      - title: "Conference registration"
-      - title: "Networking / activity"
-      - title: "Networking / activity"
+      - title: "Conference Registration"
+      - title: "Activity"
+      - title: "Activity"
       - {}
 
   - time: "17:00–18:00"
     cells:
-      - title: "Opening keynote"
+      - title: "Opening Keynote"
       - {}
       - {}
       - {}
 
   - time: "18:00–21:00"
     cells:
-      - title: "Welcome dinner"
+      - title: "Welcome Dinner"
       - title: "Dinner"
-      - title: "Closing dinner & entertainment"
+      - title: "Closing Dinner & Entertainment"
       - {}

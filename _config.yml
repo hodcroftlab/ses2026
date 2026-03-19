@@ -13,7 +13,7 @@ event:
   venue: "Historic monastery in Disentis"
   venue_name: "Hotel Kloster Disentis"
   venue_url: "https://www.hotel-kloster.ch/"
-  venue_description: "A historic monastery hotel nestled in the Swiss Alps, offering a unique blend of culture, comfort, and stunning natural surroundings."
+  venue_description: "A former Benedictine monastery now converted into a hotel, combining historic charm with simple, modern facilities. Surrounded by the Swiss Alps, it provides a quiet environment ideal for focused discussions."
   contact_email: "eve-group@swisstph.ch"
   organizer: "EVE Group, Swiss TPH & University of Basel"
   registration_url: "#"
@@ -22,6 +22,12 @@ event:
     enabled: false
     deadline: "TBD"
     url: "#"
+  venue_map:
+    enabled: true  # For future use if you add the interactive map
+    travel:
+      train_duration_zurich: "2.5 hours"
+      train_duration_basel: "3.5 hours"
+      walk_duration: "10 minutes"
 
 # Design options
 design:

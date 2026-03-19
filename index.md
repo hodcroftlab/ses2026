@@ -102,7 +102,7 @@ title: "Home"
   <div class="container">
     <div class="section__head">
       <h2>Venue</h2>
-      <p class="section__sub">The symposium takes place at the historic monastery in Disentis, Switzerland — an ideal setting for focused exchange and community building.</p>
+      <p class="section__sub">The symposium will take place at a former monastery in Disentis, offering a beautiful setting for discussions and informal exchange.</p>
     </div>
 
     <div class="grid">
@@ -120,18 +120,60 @@ title: "Home"
         <p class="muted">{{ site.event.location_short }}</p>
         <p class="muted">{{ site.event.venue_description }}</p>
 
-        <h3 style="margin-top:18px;">Travel & accommodation</h3>
-        <p class="muted">Placeholder: add travel tips, nearest train station, directions, and accommodation notes here.</p>
+        <h3 style="margin-top:18px;">Travel & arrival</h3>
+        <p class="muted">Disentis is accessible by public transport with scenic rail connections through the Alps:</p>
+        <ul class="muted">
+              <li><strong>By train:</strong> Disentis/Mustér station has regular connections via Chur or Andermatt. ~10 min walk uphill</li>
+            <ul>
+              <li><strong>From Zurich:</strong> ~2.5 hours with one change in Chur</li>
+              <li><strong>From Basel:</strong> ~3.5 hours with one change in Chur</li>
+            </ul>
+              <li><strong>By car:</strong> Via Chur or Oberalp Pass; parking available on site</li>
+              </ul>
+        <p class="muted"><em>Train travel is recommended for convenience and sustainability.</em></p>
+
+        {% include venue_map.html %}
       </div>
 
       <div class="panel panel--half">
-        <h3>At a glance</h3>
-        <ul>
-          <li>Welcome apéro and dinners included (details TBA)</li>
-          <li>Poster sessions and networking activities</li>
-          <li>Student-led workshops on Day 4 (morning)</li>
+        <h3>Accommodation & costs</h3>
+        <p class="muted">Most participants will stay at Hotel Kloster Disentis, so meals, talks, and poster sessions all take place in the same location.</p>
+        <ul class="muted">
+          <li>Single, double, and triple rooms available*</li>
+          <li>All meals included</li>
+          <li>Simple, comfortable rooms in the monastery setting</li>
+          <li>A small number may be housed nearby (1–2 min walk away)</li>
         </ul>
-        <p class="muted">Placeholder: add accessibility information and venue facilities here.</p>
+        <p class="muted">
+          <strong>Registration covers accommodation, meals, materials, and workshops.</strong>
+          Travel to Disentis is not included. We offer a limited number of travel grants for students with limited funds. Details will be announced when registration opens.
+        </p>
+        <p class="muted">
+          <i>* Student registration will be housed in double and triple rooms</i>
+        </p>
+
+        <h3 style="margin-top:18px;">Accessibility</h3>
+        <p class="muted">Most main conference areas are accessible. As a historic building, some areas may involve stairs or uneven floors. Please <a href="mailto:{{ site.event.contact_email }}">reach out in advance</a> if you have specific requirements so we can help coordinate.</p>
+
+        <h3 style="margin-top:18px;">Activities</h3>
+        <p class="muted">
+          To enable networking and help build up connections between participants, we plan to make the most of our unique Swiss surroundings by incorporating activity options (included in registration) - stay tuned to find out more!
+        </p>
+
+        <h3 style="margin-top:18px;">Travel in Switzerland</h3>
+        <p class="muted">
+          Train tickets in Switzerland can be expensive; booking in advance can allow you to save money. A flexible ticket from Zurich airport to Disentis can cost 71CHF. A day-saver ticket booked in advance could be as low as 52CHF - check for them on the <a href="https://www.sbb.ch/en/offers/saver-day-pass">SBB website</a>.
+        </p>
+
+        <!-- <h3 style="margin-top:18px;">At a Glance</h3>
+        <ul class="muted">
+          <li>Welcome reception and all meals included</li>
+          <li>Keynote lectures and talks selected from abstracts</li>
+          <li>Poster sessions and networking opportunities</li>
+          <li>Interactive workshop on Day 4 (Nextstrain, Nextclade or Pathoplexus, TBD)</li>
+        </ul> -->
+
+
       </div>
     </div>
   </div>
@@ -141,7 +183,7 @@ title: "Home"
   <div class="container">
     <div class="section__head">
       <h2>Sponsors</h2>
-      <p class="section__sub">We’re grateful for partners who support enterovirus research, training, and European collaboration.</p>
+      <p class="section__sub">We thank our partners for supporting enterovirus research and collaboration.</p>
     </div>
 
     {% for tier in site.data.sponsors.tiers %}
