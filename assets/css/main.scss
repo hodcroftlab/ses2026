@@ -61,12 +61,13 @@ a:hover {
   padding: 14px 0;
   gap: 18px;
 }
-.nav__brand{ display:flex; flex-direction:column; gap:2px; color: var(--ink);}
+.nav__inner a { border-bottom: none; }
+.nav__brand{ display:flex; flex-direction:column; gap:2px; color: var(--ink); }
 .nav__brand-title{ font-weight: 800; letter-spacing: .2px; }
 .nav__brand-subtitle{ font-size: 13px; color: var(--muted); }
 .nav__links{ display:flex; align-items:center; gap: 14px; font-weight:600;}
 .nav__links a{ padding: 8px 10px; border-radius: 12px;color: var(--ink); border-bottom: none;}
-.nav__links a:hover{ background: rgba(42,167,184,0.10); text-decoration:none;color: var(--ink); }
+.nav__links a:hover{ background: rgba(42,167,184,0.10); text-decoration:none; color: var(--ink); }
 
 /* Banner */
 .banner{
