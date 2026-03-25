@@ -34,6 +34,7 @@ title: "Home"
           {% endif %}
           <a class="btn btn--ghost" href="#program">View program</a>
           <a class="btn btn--ghost" href="#speakers">Speakers</a>
+          <a class="btn btn--ghost" href="#venue">Venue</a>
           <a class="btn btn--ghost" href="#contact">Contact</a>
         </div>
       </div>
