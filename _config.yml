@@ -2,8 +2,8 @@ title: "1st Swiss Enterovirus Symposium"
 tagline: "Enterovirus Research and Surveillance: Strengthening Networks in Europe and Beyond"
 description: "A focused, in-person symposium uniting virology, epidemiology, bioinformatics, and clinical science."
 # GitHub Pages under hodcroftlab/ses2026:
-url: "https://hodcroftlab.github.io"
-baseurl: "/ses2026"
+url: "https://ses2026.org"
+baseurl: ""
 
 # Event metadata
 event:
