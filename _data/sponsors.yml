@@ -4,7 +4,12 @@
 tiers:
   - name: "Platinum"
     sponsors:
-      - name: "Become a Platinum Sponsor!"
+      - name: "ESCV"
+        logo: "/assets/img/sponsors/escv.svg"
+        url: "https://escv.eu/"
+      - name: "ENPEN"
+        logo: "/assets/img/sponsors/enpen.jpg"
+        url: "https://escv.eu/european-non-polio-enterovirus-network-enpen/"
       - name: "Become a Platinum Sponsor!"
 
   - name: "Gold"
