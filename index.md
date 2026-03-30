@@ -49,26 +49,37 @@ title: "Home"
       <p class="section__sub">A focused meeting uniting virology, epidemiology, bioinformatics, and clinical science to drive progress in enterovirus research and surveillance.</p>
     </div>
 
-    <div class="grid">
-      <div class="panel panel--half">
-        <h3>Why this symposium?</h3>
-        <p>
-          Enteroviruses are an increasingly important yet underrepresented global health challenge, with evolving genotypes
-          (including EV-A71 and EV-D68) linked to rising disease burden. This symposium creates a platform to spotlight
-          cutting-edge science, new detection technologies, and clinical insights.
-        </p>
-      </div>
+<div class="grid">
+  <div class="panel panel--half">
+    <h3>Why this symposium?</h3>
+    <p>
+      Enteroviruses are an increasingly important yet underrepresented global health challenge, with evolving genotypes
+      (including EV-A71 and EV-D68) linked to rising disease burden. This symposium creates a platform to spotlight
+      cutting-edge science, new detection technologies, and clinical insights.
+    </p>
+  </div>
 
-      <div class="panel panel--half">
-        <h3>Format</h3>
-        <ul>
-          <li>Keynotes, contributed talks, and poster sessions</li>
-          <li>Interactive workshops (Nextclade, Pathoplexus)</li>
-          <li>Structured discussion forum + networking</li>
-          <li><strong>In-person only</strong> to maximize collaboration</li>
-        </ul>
-      </div>
-    </div>
+  <div class="panel panel--half">
+    <h3>Format</h3>
+    <ul>
+      <li>Keynotes, contributed talks, and poster sessions</li>
+      <li>Interactive workshops (Nextclade, Pathoplexus)</li>
+      <li>Structured discussion forum + networking</li>
+      <li><strong>In-person only</strong> to maximize collaboration</li>
+    </ul>
+  </div>
+
+  <div class="panel"> <!-- panel--half -->
+    <h3>Co-hosts</h3>
+    <p class="muted">
+      This symposium is co-hosted by the <strong>European Society for Clinical Virology (ESCV)</strong> and the <strong><a href="https://escv.eu/european-non-polio-enterovirus-network-enpen/" target="_blank" rel="noopener">European Non-Polio Enterovirus Network (ENPEN)</a></strong>.
+    </p>
+    <p class="muted">
+      We are grateful for their generous support in advancing enterovirus research and surveillance across Europe.
+    </p>
+  </div>
+</div>
+
   </div>
 </section>
 
