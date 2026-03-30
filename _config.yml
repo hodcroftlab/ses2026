@@ -14,7 +14,7 @@ event:
   venue_name: "Hotel Kloster Disentis"
   venue_url: "https://www.hotel-kloster.ch/"
   venue_description: "A former Benedictine monastery now converted into a hotel, combining historic charm with simple, modern facilities. Surrounded by the Swiss Alps, it provides a quiet environment ideal for focused discussions."
-  contact_email: "eve-group@swisstph.ch"
+  contact_email: "eve-group[at]swisstph.ch"
   organizer: "EVE Group, Swiss TPH & University of Basel"
   registration_url: "#"
   registration_open: false
