@@ -72,7 +72,7 @@ title: "Home"
   <div class="panel"> <!-- panel--half -->
     <h3>Co-hosts</h3>
     <p class="muted">
-      This symposium is co-hosted by the <strong>European Society for Clinical Virology (ESCV)</strong> and the <strong><a href="https://escv.eu/european-non-polio-enterovirus-network-enpen/" target="_blank" rel="noopener">European Non-Polio Enterovirus Network (ENPEN)</a></strong>.
+      This symposium is co-hosted by the <strong><a href="https://escv.eu/" target="_blank" rel="noopener">European Society for Clinical Virology (ESCV)</a></strong> and the <strong><a href="https://escv.eu/european-non-polio-enterovirus-network-enpen/" target="_blank" rel="noopener">European Non-Polio Enterovirus Network (ENPEN)</a></strong>.
     </p>
     <p class="muted">
       We are grateful for their generous support in advancing enterovirus research and surveillance across Europe.
