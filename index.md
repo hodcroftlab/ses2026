@@ -208,7 +208,7 @@ title: "Home"
                 <img src="{{ s.logo | relative_url }}" alt="{{ s.name }} logo" style="max-width:100%; max-height:52px;">
               </a>
             {% else %}
-              <a class="sponsor" href="mailto:eve-group@swisstph.ch" style="border-style:solid;">{{ s.name }}</a>
+              <a class="sponsor" href="mailto:eve-group[at]swisstph.ch" style="border-style:solid;">{{ s.name }}</a>
             {% endif %}
           {% endfor %}
         </div>
