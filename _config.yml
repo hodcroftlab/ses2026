@@ -28,6 +28,9 @@ event:
       train_duration_zurich: "2.5 hours"
       train_duration_basel: "3.5 hours"
       walk_duration: "10 minutes"
+  abstract_deadline: "June 30, 2026"
+  registration_deadline: "July 31, 2026"
+  early_bird: "July 15, 2026"
 
 # Design options
 design:

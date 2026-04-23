@@ -242,7 +242,8 @@ title: "Home"
             </div>
           {% endfor %}
         </div>
-        <p class="muted">...and with help from the rest of the <a href="https://eve-lab.org" target="_blank" rel="noopener">EVE Lab</a>.</p>
+        <p class="muted"> ... and with help from the rest of the <a href="https://eve-lab.org" target="_blank" rel="noopener">EVE Lab</a>.</p>
+        <br>
         <p><strong>Email:</strong> <a href="mailto:{{ site.event.contact_email }}">{{ site.event.contact_email }}</a></p>
       </div>
 
@@ -256,8 +257,15 @@ title: "Home"
         {% else %}
           <p class="muted"><em>Registration is not yet open - please stay tuned!</em></p>
         {% endif %}
-        <!-- <p class="muted">Tip: set <code>event.registration_url</code> in <code>_config.yml</code> once you have the link.</p> -->
-      </div>
+        <br>
+        <h4 style="margin-top:18px;">Deadlines:</h4>
+        <ul class="muted">
+          <li><strong>Abstract submission:</strong> {{ site.event.abstract_deadline }}</li>
+          <li><strong>Registration deadline:</strong> {{ site.event.registration_deadline }}</li>
+          <li><em>Early-bird registration until {{ site.event.early_bird }}</em></li>
+
+        </ul>
+      </div>      
     </div>
   </div>
 </section>
