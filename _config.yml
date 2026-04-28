@@ -16,12 +16,29 @@ event:
   venue_description: "A former Benedictine monastery now converted into a hotel, combining historic charm with simple, modern facilities. Surrounded by the Swiss Alps, it provides a quiet environment ideal for focused discussions."
   contact_email: "eve-group[at]swisstph.ch"
   organizer: "EVE Group, Swiss TPH & University of Basel"
-  registration_url: "#"
-  registration_open: false
-  abstract_submission:
-    enabled: false
-    deadline: "TBD"
-    url: "#"
+  
+  submissions:
+    enabled: true
+    
+    registration:
+      enabled: false
+      label: "Registration"
+      url: "#"
+      note: "Opens soon!"
+      deadline: "31 July 2026"
+    
+    abstracts:
+      enabled: true
+      label: "Abstract submission"
+      url: "#"
+      deadline: "15 June 2026"
+    
+    travel_grants:
+      enabled: true
+      label: "Travel grant submission"
+      url: "#"
+      deadline: "15 June 2026"
+  
   venue_map:
     enabled: true  # For future use if you add the interactive map
     travel:
