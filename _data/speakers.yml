@@ -36,12 +36,12 @@
   talk_title: "Humoral immunity to enteroviruses across diverse serum cohorts from Switzerland, Ghana, and Tanzania."
   photo: "/assets/img/speakers/katharina-roeltgen.jpg"
 
-# - slug: florian-zwagemaker
-#   name: "Florian Zwagemaker"
-#   role: "Session 3: Bioinformatics"
-#   affiliation: "National Institute for Public Health and the Environment (RIVM), Netherlands"
-#   talk_title: "Computational tools and pipelines for accurate enterovirus typing."
-#   photo: "/assets/img/speakers/florian-zwagemaker.jpg"
+- slug: florian-zwagemaker
+  name: "Florian Zwagemaker"
+  role: "Session 3: Bioinformatics"
+  affiliation: "National Institute for Public Health and the Environment (RIVM), Netherlands"
+  talk_title: "Strengthening Enterovirus Surveillance Through Modern Pathogen Data Infrastructure"
+  photo: "/assets/img/speakers/florian-zwagemaker.jpg"
 
 # - slug: lea-gaume
 #   name: "Dr. Léa Gaume"
