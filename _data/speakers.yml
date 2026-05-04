@@ -1,13 +1,6 @@
 # Add/modify speakers here. The site auto-renders cards.
 # photo paths should be relative to the repo root, e.g. /assets/img/speakers/javier-martin.jpg
 
-- slug: kevin-messacar
-  name: "Prof. Kevin Messacar"
-  role: "Session 5: Clinical Aspects"
-  affiliation: "University of Colorado School of Medicine, USA"
-  talk_title: "Enterovirus D68 and acute flaccid myelitis: clinical challenges, epidemiology, and future directions."
-  photo: "/assets/img/speakers/kevin-messacar.jpg"
-
 # - slug: heli-harvala
 #   name: "Dr. Heli Harvala"
 #   role: "Keynote"
@@ -49,6 +42,13 @@
 #   affiliation: "Royal College of Surgeons in Ireland (RCSI), Ireland"
 #   talk_title: "Mechanisms enabling neurotropic enteroviruses to cross the human blood-brain barrier."
 #   photo: "/assets/img/speakers/lea-gaume.jpg"
+
+- slug: kevin-messacar
+  name: "Prof. Kevin Messacar"
+  role: "Session 5: Clinical Aspects"
+  affiliation: "University of Colorado School of Medicine, USA"
+  talk_title: "Enterovirus D68 and acute flaccid myelitis: clinical challenges, epidemiology, and future directions."
+  photo: "/assets/img/speakers/kevin-messacar.jpg"
 
 # - slug: jan-albert
 #   name: "Prof. Jan Albert"
