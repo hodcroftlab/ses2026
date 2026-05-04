@@ -272,7 +272,6 @@ title: "Home"
     </div>
 
     <div class="grid">
-
       <div class="panel panel--half">
         <h3>Organizers</h3>
         <div style="display:flex; flex-wrap:wrap; gap:16px; margin-bottom:16px;">
@@ -288,12 +287,17 @@ title: "Home"
               <span style="font-size:0.75rem; line-height:1.2;">{{ parts[0] }}</span>
             </div>
           {% endfor %}
+          <img src="{{ '/assets/img/eve-lab-logo.png' | relative_url }}" alt="EVE Lab logo" style="width:60px; height:60px; border-radius:50%; object-fit:cover; object-position:center;"> <!-- EVE Lab logo -->
+
         </div>
         <p class="muted">...and with help from the rest of the <a href="https://eve-lab.org" target="_blank" rel="noopener">EVE Lab</a>.</p>
         <p><strong>Email:</strong> <a href="mailto:{{ site.event.contact_email }}">{{ site.event.contact_email }}</a></p>
+
+        <div style="display:flex; flex-wrap:wrap; gap:16px; margin-top:16px; align-items:center;">
+          <img src="{{ '/assets/img/swiss-tph-logo.png' | relative_url }}" alt="Swiss TPH logo" style="max-height:40px;">
+          <img src="{{ '/assets/img/university-of-basel.png' | relative_url }}" alt="University of Basel logo" style="max-height:60px;">
+        </div>
       </div>
-
-
 
       <div class="panel panel--half">
         <h3>Registration</h3>
