@@ -10,7 +10,9 @@ tiers:
       - name: "ENPEN"
         logo: "/assets/img/sponsors/enpen.jpg"
         url: "https://escv.eu/european-non-polio-enterovirus-network-enpen/"
-      - name: "Become a Platinum Sponsor!"
+      - name: "University of Basel"
+        logo: /assets/img/university-of-basel.png
+        url: https://www.unibas.ch/en
 
   - name: "Gold"
     sponsors:
