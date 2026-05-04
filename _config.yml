@@ -30,13 +30,13 @@ event:
     abstracts:
       enabled: true
       label: "Abstract submission"
-      url: "#"
+      url: "https://docs.google.com/forms/d/e/1FAIpQLScVuvviBWL0Aamt8PCr2NRG-39p8prE6YC3D0T8tZyarTI2RA/viewform?usp=dialog"
       deadline: "15 June 2026"
     
     travel_grants:
       enabled: true
       label: "Travel grant submission"
-      url: "#"
+      url: "https://docs.google.com/forms/d/e/1FAIpQLScywZ4AgzURG65Ih58ZPieP3ckCwCLEhStqSCQAwcCwNwLtaw/viewform?usp=publish-editor"
       deadline: "15 June 2026"
   
   venue_map:
