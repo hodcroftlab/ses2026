@@ -23,7 +23,7 @@ event:
     registration:
       enabled: false
       label: "Registration"
-      url: "#"
+      url: "https://www.sib.swiss/conferences/1st-swiss-enterovirus-symposium"
       note: "Opens soon!"
       deadline: "31 July 2026"
     
