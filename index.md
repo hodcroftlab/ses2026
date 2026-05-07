@@ -29,8 +29,8 @@ title: "Home"
         </div>
 
         <div class="hero__actions">
-          {% if site.event.registration_open %}
-            <a class="btn" href="{{ site.event.registration_url }}" target="_blank" rel="noopener">Register</a>
+          {% if site.event.submissions.registration.enabled %}
+            <a class="btn btn--ghost" href="{{ site.event.submissions.registration.url }}" target="_blank" rel="noopener">Register</a>
           {% endif %}
           <a class="btn btn--ghost" href="#program">View program</a>
           <a class="btn btn--ghost" href="#speakers">Speakers</a>
@@ -40,8 +40,75 @@ title: "Home"
       </div>
     </div>
   </div>
-</section>
+</section> <!-- end hero -->
 
+<!-- ...existing code... -->
+{% if site.event.submissions.enabled %}
+<section id="submissions" class="section" style="padding-top:7px;padding-bottom:12px;">
+  <div class="container">
+    <div class="section__head">
+      <h2>Submissions &amp; Registration</h2>
+      <p class="section__sub">
+        Use the links below to register, submit an abstract, or apply for a travel grant.
+      </p>
+    </div>
+
+    <div class="grid">
+      <div class="panel panel--third">
+        <h3 style="margin-top:0;">Registration</h3>
+
+        {% if site.event.submissions.registration.deadline and site.event.submissions.registration.enabled %}
+          <p class="muted"><strong>Deadline:</strong> {{ site.event.submissions.registration.deadline }}</p>
+        {% endif %}
+
+        {% if site.event.submissions.registration.enabled %}
+          <p style="margin:0;">
+            <a class="btn btn--ghost" href="{{ site.event.submissions.registration.url }}" target="_blank" rel="noopener">
+              {{ site.event.submissions.registration.label }}
+            </a>
+          </p>
+        {% else %}
+          <p class="muted"><em>Not yet open.</em></p>
+        {% endif %}
+
+        {% if site.event.submissions.registration.note and site.event.submissions.registration.enabled==false %}
+          <p class="muted">{{ site.event.submissions.registration.note }}</p>
+        {% endif %}
+      </div>
+
+      <div class="panel panel--third">
+        <h3 style="margin-top:0;">Abstract submission</h3>
+        {% if site.event.submissions.abstracts.deadline %}
+          <p class="muted"><strong>Deadline:</strong> {{ site.event.submissions.abstracts.deadline }}</p>
+        {% endif %}
+        {% if site.event.submissions.abstracts.enabled %}
+          <p style="margin:0;">
+            <a class="btn btn--ghost" href="{{ site.event.submissions.abstracts.url }}" target="_blank" rel="noopener">
+              {{ site.event.submissions.abstracts.label }}
+            </a>
+          </p>
+        {% endif %}
+      </div>
+
+      <div class="panel panel--third">
+        <h3 style="margin-top:0;">Travel grants</h3>
+        {% if site.event.submissions.travel_grants.deadline %}
+          <p class="muted"><strong>Deadline:</strong> {{ site.event.submissions.travel_grants.deadline }}</p>
+        {% endif %}
+        {% if site.event.submissions.travel_grants.enabled %}
+          <p style="margin:0;">
+            <a class="btn btn--ghost" href="{{ site.event.submissions.travel_grants.url }}" target="_blank" rel="noopener">
+              {{ site.event.submissions.travel_grants.label }}
+            </a>
+          </p>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<!-- ...existing code... -->
 <section id="about" class="section">
   <div class="container">
     <div class="section__head">
@@ -255,12 +322,13 @@ title: "Home"
       <div class="panel panel--half">
         <h3>Registration</h3>
         <p class="muted">Registration will happen via our partner.</p>
-        {% if site.event.registration_open %}
-          <p><a class="btn btn--ghost" href="{{ site.event.registration_url }}" target="_blank" rel="noopener">Go to registration</a></p>
+        <br>
+        {% if site.event.submissions.registration.enabled %}
+          <p><a class="btn btn--ghost" href="{{ site.event.submissions.registration.url }}" target="_blank" rel="noopener">Go to registration</a></p>
         {% else %}
           <p class="muted"><em>Registration is not yet open - please stay tuned!</em></p>
         {% endif %}
-        <!-- <p class="muted">Tip: set <code>event.registration_url</code> in <code>_config.yml</code> once you have the link.</p> -->
+        <!-- <p class="muted">Tip: set <code>event.submissions.registration.url</code> in <code>_config.yml</code> once you have the link.</p> -->
       </div>
     </div>
   </div>
