@@ -16,12 +16,29 @@ event:
   venue_description: "A former Benedictine monastery now converted into a hotel, combining historic charm with simple, modern facilities. Surrounded by the Swiss Alps, it provides a quiet environment ideal for focused discussions."
   contact_email: "eve-group[at]swisstph.ch"
   organizer: "EVE Group, Swiss TPH & University of Basel"
-  registration_url: "#"
-  registration_open: false
-  abstract_submission:
-    enabled: false
-    deadline: "TBD"
-    url: "#"
+  
+  submissions:
+    enabled: true
+    
+    registration:
+      enabled: false
+      label: "Registration"
+      url: "https://www.sib.swiss/conferences/1st-swiss-enterovirus-symposium"
+      note: "Opens soon!"
+      deadline: "31 July 2026"
+    
+    abstracts:
+      enabled: true
+      label: "Abstract submission"
+      url: "https://docs.google.com/forms/d/e/1FAIpQLScVuvviBWL0Aamt8PCr2NRG-39p8prE6YC3D0T8tZyarTI2RA/viewform?usp=dialog"
+      deadline: "15 June 2026"
+    
+    travel_grants:
+      enabled: true
+      label: "Travel grant submission"
+      url: "https://docs.google.com/forms/d/e/1FAIpQLScywZ4AgzURG65Ih58ZPieP3ckCwCLEhStqSCQAwcCwNwLtaw/viewform?usp=publish-editor"
+      deadline: "15 June 2026"
+  
   venue_map:
     enabled: true  # For future use if you add the interactive map
     travel:
