@@ -15,12 +15,12 @@
 #   talk_title: "Global patterns of enterovirus circulation and the role of ENPEN in strengthening European surveillance."
 #   photo: "/assets/img/speakers/thea-kolsen-fischer.jpg"
 
-# - slug: javier-martin
-#   name: "Dr. Javier Martin"
-#   role: "Session 1: Surveillance & Modeling"
-#   affiliation: "National Institute for Biological Standards and Control (NIBSC), UK"
-#   talk_title: "Global enterovirus and polio surveillance: challenges in wastewater monitoring and emerging strategies for early outbreak detection."
-#   photo: "/assets/img/speakers/javier-martin.jpg"
+- slug: javier-martin
+  name: "Dr. Javier Martin-Gonzalez"
+  role: "Session 1: Surveillance & Modeling"
+  affiliation: "National Institute for Biological Standards and Control (NIBSC), UK"
+  talk_title: "Global enterovirus and polio surveillance: challenges in wastewater monitoring and strategies for early outbreak detection."
+  photo: "/assets/img/speakers/javier-martin.jpg"
 
 - slug: katharina-roeltgen
   name: "Prof. Katharina Röltgen"
