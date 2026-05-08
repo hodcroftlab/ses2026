@@ -17,21 +17,21 @@
 
 - slug: javier-martin
   name: "Dr. Javier Martin-Gonzalez"
-  role: "Session 1: Surveillance & Modeling"
+  role: "Session 1: Epidemiology & Modeling"
   affiliation: "National Institute for Biological Standards and Control (NIBSC), UK"
   talk_title: "Global enterovirus and polio surveillance: challenges in wastewater monitoring and strategies for early outbreak detection."
   photo: "/assets/img/speakers/javier-martin.jpg"
 
 - slug: katharina-roeltgen
   name: "Prof. Katharina Röltgen"
-  role: "Session 2: Sero-Surveillance"
+  role: "Session 2: Serological Surveillance"
   affiliation: "Swiss Tropical and Public Health Institute (Swiss TPH), Switzerland"
   talk_title: "Humoral immunity to enteroviruses across diverse serum cohorts from Switzerland, Ghana, and Tanzania."
   photo: "/assets/img/speakers/katharina-roeltgen.jpg"
 
 - slug: florian-zwagemaker
   name: "Florian Zwagemaker"
-  role: "Session 3: Bioinformatics"
+  role: "Session 3: Bioinformatics & Tools"
   affiliation: "National Institute for Public Health and the Environment (RIVM), Netherlands"
   talk_title: "Strengthening Enterovirus surveillance through modern pathogen data infrastructure."
   photo: "/assets/img/speakers/florian-zwagemaker.jpg"
@@ -45,14 +45,14 @@
 
 - slug: kevin-messacar
   name: "Prof. Kevin Messacar"
-  role: "Session 5: Clinical Aspects"
+  role: "Session 5: Clinical Insights"
   affiliation: "University of Colorado School of Medicine, USA"
   talk_title: "Enterovirus D68 and acute flaccid myelitis: clinical challenges, epidemiology, and future directions."
   photo: "/assets/img/speakers/kevin-messacar.jpg"
 
 # - slug: jan-albert
 #   name: "Prof. Jan Albert"
-#   role: "Session 5: Clinical Aspects"
+#   role: "Session 5: Clinical Insights"
 #   affiliation: "Karolinska University Hospital (KI), Sweden"
 #   talk_title: "Integrating viral genomics into clinical care: lessons from enterovirus diagnostics and patient management."
 #   photo: "/assets/img/speakers/jan-albert.jpg"
