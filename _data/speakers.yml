@@ -17,7 +17,7 @@
 
 - slug: javier-martin
   name: "Dr. Javier Martin-Gonzalez"
-  role: "Session 1: Surveillance & Modeling"
+  role: "Session 1: Epidemiology & Modeling"
   affiliation: "National Institute for Biological Standards and Control (NIBSC), UK"
   talk_title: "Global enterovirus and polio surveillance: challenges in wastewater monitoring and strategies for early outbreak detection."
   photo: "/assets/img/speakers/javier-martin.jpg"
@@ -45,7 +45,7 @@
 
 - slug: kevin-messacar
   name: "Prof. Kevin Messacar"
-  role: "Session 5: Clinical Aspects"
+  role: "Session 5: Clinical Insights"
   affiliation: "University of Colorado School of Medicine, USA"
   talk_title: "Enterovirus D68 and acute flaccid myelitis: clinical challenges, epidemiology, and future directions."
   photo: "/assets/img/speakers/kevin-messacar.jpg"
