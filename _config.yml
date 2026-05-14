@@ -21,11 +21,11 @@ event:
     enabled: true
     
     registration:
-      enabled: false
+      enabled: true
       label: "Registration"
-      url: "https://www.sib.swiss/conferences/1st-swiss-enterovirus-symposium"
+      url: "https://www.sib.swiss/event-coordination/event/Enterovirus%20Conference"
       note: "Opens soon!"
-      deadline: "31 July 2026"
+      deadline: "15 July 2026"
     
     abstracts:
       enabled: true
