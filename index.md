@@ -321,8 +321,9 @@ title: "Home"
 
       <div class="panel panel--half">
         <h3>Registration</h3>
-        <p class="muted">Registration will happen via our partner.</p>
+        <p class="muted">Register via our partner, SIB.</p>
         <br>
+        <p class="muted"> Early registration closes 15 July, late registration (at higher cost) closes 31 July.</p>
         {% if site.event.submissions.registration.enabled %}
           <p><a class="btn btn--ghost" href="{{ site.event.submissions.registration.url }}" target="_blank" rel="noopener">Go to registration</a></p>
         {% else %}
