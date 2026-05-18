@@ -1,12 +1,12 @@
 # Add/modify speakers here. The site auto-renders cards.
 # photo paths should be relative to the repo root, e.g. /assets/img/speakers/javier-martin.jpg
 
-# - slug: heli-harvala
-#   name: "Dr. Heli Harvala"
-#   role: "Keynote"
-#   affiliation: "UK Health Security Agency (UKHSA), United Kingdom"
-#   talk_title: "Enterovirus surveillance in the UK: integrating clinical, environmental, and genomic data for outbreak preparedness."
-#   photo: "/assets/img/speakers/heli-harvala.jpg"
+- slug: heli-harvala
+  name: "Dr. Heli Harvala"
+  role: "Opening Keynote"
+  affiliation: "UK Health Security Agency (UKHSA), United Kingdom"
+  talk_title: "Enterovirus surveillance in the UK: integrating clinical, environmental, and genomic data for outbreak preparedness."
+  photo: "/assets/img/speakers/heli-harvala.jpg"
 
 # - slug: thea-kolsen-fischer
 #   name: "Prof. Thea Kølsen Fischer"
