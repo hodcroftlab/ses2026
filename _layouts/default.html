@@ -6,6 +6,8 @@
     <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
     {% seo %}
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    <meta property="og:image" content="{{ site.design.hero_image | absolute_url }}">
+    <meta name="twitter:image" content="{{ site.design.hero_image | absolute_url }}">
     <link rel="icon" href="{{ '/assets/img/favicon.png' | relative_url }}">
   </head>
   <body>
