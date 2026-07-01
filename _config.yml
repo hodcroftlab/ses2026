@@ -24,20 +24,22 @@ event:
       enabled: true
       label: "Registration"
       url: "https://www.sib.swiss/event-coordination/event/Enterovirus%20Conference"
-      note: "Opens soon!"
+      note: "Registration closed."
       deadline: "15 July 2026"
     
     abstracts:
       enabled: true
-      label: "Abstract submission"
-      url: "https://docs.google.com/forms/d/e/1FAIpQLScVuvviBWL0Aamt8PCr2NRG-39p8prE6YC3D0T8tZyarTI2RA/viewform?usp=dialog"
-      deadline: "22 June 2026"
+      label: "Abstract submission - Poster"
+      url: "https://forms.gle/BRTcVrxzkVKsRbLV6"
+      note: "Submission closed."
+      deadline: "1 October 2026"
     
     travel_grants:
-      enabled: true
+      enabled: false
       label: "Travel grant submission"
       url: "https://docs.google.com/forms/d/e/1FAIpQLScywZ4AgzURG65Ih58ZPieP3ckCwCLEhStqSCQAwcCwNwLtaw/viewform?usp=publish-editor"
       deadline: "22 June 2026"
+      note: "Application closed."
   
   venue_map:
     enabled: true  # For future use if you add the interactive map

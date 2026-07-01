@@ -88,6 +88,10 @@ title: "Home"
             </a>
           </p>
         {% endif %}
+        {% if site.event.submissions.abstracts.note and site.event.submissions.abstracts.enabled==false %}
+          <p class="muted">{{ site.event.submissions.abstracts.note }}</p>
+        
+        {% endif %}
       </div>
 
       <div class="panel panel--third">
@@ -101,6 +105,10 @@ title: "Home"
               {{ site.event.submissions.travel_grants.label }}
             </a>
           </p>
+        {% endif %}
+        {% if site.event.submissions.travel_grants.note and site.event.submissions.travel_grants.enabled==false %}
+          <p class="muted">{{ site.event.submissions.travel_grants.note }}</p>
+        
         {% endif %}
       </div>
     </div>
@@ -321,7 +329,7 @@ title: "Home"
 
       <div class="panel panel--half">
         <h3>Registration</h3>
-        <p class="muted">Register via our partner, SIB.</p>
+        <p class="muted">Register via our partner SIB.</p>
         <br>
         <p class="muted"> Early registration closes 15 July, late registration (at higher cost) closes 31 July.</p>
         {% if site.event.submissions.registration.enabled %}
