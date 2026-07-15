@@ -25,7 +25,7 @@ event:
       label: "Registration"
       url: "https://www.sib.swiss/event-coordination/event/Enterovirus%20Conference"
       note: "Registration closed."
-      deadline: "15 July 2026"
+      deadline: "31 July 2026"
     
     abstracts:
       enabled: true

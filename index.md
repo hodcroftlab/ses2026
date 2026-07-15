@@ -331,7 +331,7 @@ title: "Home"
         <h3>Registration</h3>
         <p class="muted">Register via our partner SIB.</p>
         <br>
-        <p class="muted"> Early registration closes 15 July, late registration (at higher cost) closes 31 July.</p>
+        <p class="muted"> Registration closes {{site.event.submissions.registration.deadline}}.</p>
         {% if site.event.submissions.registration.enabled %}
           <p><a class="btn btn--ghost" href="{{ site.event.submissions.registration.url }}" target="_blank" rel="noopener">Go to registration</a></p>
         {% else %}
