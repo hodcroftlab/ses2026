@@ -233,7 +233,7 @@ title: "Home"
         </ul>
         <p class="muted">
           <strong>Registration covers accommodation, meals, materials, and workshops.</strong>
-          Travel to Disentis is not included. We offer a limited number of travel grants for students with limited funds. Details will be announced when registration opens.
+          Travel to Disentis is not included. We offered a limited number of travel grants for students with limited funds, but the application deadline has now passed.
         </p>
         <p class="muted">
           <i>* Student registration will be housed in double and triple rooms</i>
