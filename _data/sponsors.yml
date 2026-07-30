@@ -13,6 +13,9 @@ tiers:
       - name: "University of Basel"
         logo: /assets/img/university-of-basel.png
         url: https://www.unibas.ch/en
+      - name: "Novartis"
+        logo: /assets/img/sponsors/Novartis.svg
+        url: https://www.novartis.com/
 
   - name: "Gold"
     sponsors:
