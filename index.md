@@ -68,7 +68,7 @@ title: "Home"
             </a>
           </p>
         {% else %}
-          <p class="muted"><em>Not yet open.</em></p>
+          <p class="muted"><em>The registration deadline has passed.</em></p>
         {% endif %}
 
         {% if site.event.submissions.registration.note and site.event.submissions.registration.enabled==false %}
