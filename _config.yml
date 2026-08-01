@@ -21,14 +21,14 @@ event:
     enabled: true
     
     registration:
-      enabled: true
+      enabled: false
       label: "Registration"
       url: "https://www.sib.swiss/event-coordination/event/Enterovirus%20Conference"
       note: "Registration closed."
       deadline: "31 July 2026"
     
     abstracts:
-      enabled: true
+      enabled: false
       label: "Abstract submission - Poster"
       url: "https://forms.gle/BRTcVrxzkVKsRbLV6"
       note: "Submission closed."
