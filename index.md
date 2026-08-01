@@ -335,7 +335,7 @@ title: "Home"
         {% if site.event.submissions.registration.enabled %}
           <p><a class="btn btn--ghost" href="{{ site.event.submissions.registration.url }}" target="_blank" rel="noopener">Go to registration</a></p>
         {% else %}
-          <p class="muted"><em>Registration is not yet open - please stay tuned!</em></p>
+          <p class="muted"><em>The registration deadline has now passed</em></p>
         {% endif %}
         <!-- <p class="muted">Tip: set <code>event.submissions.registration.url</code> in <code>_config.yml</code> once you have the link.</p> -->
       </div>
