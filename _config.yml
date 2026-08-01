@@ -28,11 +28,11 @@ event:
       deadline: "31 July 2026"
     
     abstracts:
-      enabled: false
+      enabled: true
       label: "Abstract submission - Poster"
       url: "https://forms.gle/BRTcVrxzkVKsRbLV6"
       note: "Submission closed."
-      deadline: "1 October 2026"
+      deadline: "1 September 2026"
     
     travel_grants:
       enabled: false
