@@ -16,11 +16,11 @@ rows:
     cells:
       - {}
       - title: "Session 1"
-        subtitle: "Epidemiology & Modeling"
+        subtitle: "Epidemiology & Surveillance I"
       - title: "Session 4"
-        subtitle: "Virus-Host Interactions"
+        subtitle: "Bioinformatics & Tools"
       - title: "Hands-on Workshop"
-        subtitle: "Nextclade / Pathoplexus"
+        subtitle: "Nextclade/Pathoplexus"
 
   - time: "10:45-11:15"
     cells:
@@ -33,11 +33,11 @@ rows:
     cells:
       - {}
       - title: "Session 2"
-        subtitle: "Serological Surveillance"
+        subtitle: "Epidemiology & Surveillance II"
       - title: "Session 5"
-        subtitle: "Clinical Insights"
+        subtitle: "Viral Fitness & Dynamics"
       - title: "Hands-on Workshop"
-        subtitle: "Nextclade / Pathoplexus"
+        subtitle: "Nextclade/Pathoplexus"
 
   - time: "13:00-14:00"
     cells:
@@ -46,37 +46,29 @@ rows:
       - title: "Lunch Break"
       - title: "Lunch Break"
 
-  - time: "14:00-15:30"
+  - time: "14:00-16:00"
     cells:
       - {}
+      - title: "Social Activity"
+      - title: "Social Activity"
+      - {}
+
+  - time: "16:00-17:30"
+    cells:
+      - title: "Conference Registration"
       - title: "Session 3"
-        subtitle: "Bioinformatics & Tools"
-      - title: "Session 6"
-        subtitle: "Discussion & Forum"
+        subtitle: "Clinical Insights & Poster Flash Talks"
+      - title: "Poster Session"
       - {}
 
-  - time: "15:30-16:30"
+  - time: "17:30-19:00"
     cells:
-      - title: "Conference Registration"
-      - title: "Coffee & Posters"
-      - title: "Coffee & Posters"
+      - title:  "Welcome & Opening Keynote"
+      - title:  "Poster Session"
+      - title:  "Breakout Discussions"
       - {}
 
-  - time: "16:30-17:30"
-    cells:
-      - title: "Conference Registration"
-      - title: "Activity"
-      - title: "Activity"
-      - {}
-
-  - time: "17:30-18:30"
-    cells:
-      - title:  "Opening Keynote"
-      - {}
-      - {}
-      - {}
-
-  - time: "18:30-21:00"
+  - time: "19:00-21:00"
     cells:
       - title: "Welcome Dinner"
       - title: "Dinner"

@@ -161,8 +161,8 @@ title: "Home"
 <section id="program" class="section">
   <div class="container">
     <div class="section__head">
-      <h2>Program overview</h2>
-      <p class="section__sub">Our program aims to combine world-class plenaries, submitted talks, and interactive poster and discussion sessions, finalized by a skill-building workshop.</p>
+      <h2>Programme overview</h2>
+      <p class="section__sub">Our programme aims to combine world-class plenaries, submitted talks, and interactive poster and discussion sessions, finalized by a skill-building workshop.</p>
     </div>
     {% include program_table.html %}
   </div>
