@@ -10,7 +10,7 @@ title: "Home"
     <div class="hero__card">
       <div class="hero__img" style="background-image:url('{{ site.design.hero_image | relative_url }}');"></div>
       <div class="hero__content">
-        <div class="kicker">In-person · 60-80 participants · Early-career friendly</div>
+        <div class="kicker">In-person · 60 participants · Early-career friendly</div>
         <h1>{{ site.event.name }}</h1>
         <p>{{ site.tagline }}</p>
         <div class="hero__meta">
