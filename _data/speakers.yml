@@ -17,31 +17,17 @@
 
 - slug: javier-martin
   name: "Dr. Javier Martin-Gonzalez"
-  role: "Epidemiology & Modeling"
+  role: "Epidemiology & Surveillance I"
   affiliation: "National Institute for Biological Standards and Control (NIBSC), UK"
   talk_title: "Poliovirus and Beyond: Enterovirus Genomics in Wastewater"
   photo: "/assets/img/speakers/javier-martin.jpg"
 
 - slug: katharina-roeltgen
   name: "Prof. Katharina Röltgen"
-  role: "Serological Surveillance"
+  role: "Epidemiology & Surveillance II"
   affiliation: "Swiss Tropical and Public Health Institute (Swiss TPH), Switzerland"
   talk_title: "Humoral immunity to enteroviruses across diverse serum cohorts from Switzerland, Ghana, and Tanzania."
   photo: "/assets/img/speakers/katharina-roeltgen.jpg"
-
-- slug: florian-zwagemaker
-  name: "Florian Zwagemaker"
-  role: "Bioinformatics & Tools"
-  affiliation: "National Institute for Public Health and the Environment (RIVM), Netherlands"
-  talk_title: "Ten Years of Modernizing Pathogen Data Infrastructure: How Scalable Platforms Enable Enterovirus Surveillance."
-  photo: "/assets/img/speakers/florian-zwagemaker.jpg"
-
-# - slug: lea-gaume
-#   name: "Dr. Léa Gaume"
-#   role: "Session 4: Host-Virus Mechanisms"
-#   affiliation: "Royal College of Surgeons in Ireland (RCSI), Ireland"
-#   talk_title: "Mechanisms enabling neurotropic enteroviruses to cross the human blood-brain barrier."
-#   photo: "/assets/img/speakers/lea-gaume.jpg"
 
 - slug: kevin-messacar
   name: "Prof. Kevin Messacar"
@@ -50,12 +36,12 @@
   talk_title: "A Two-Way Lens: Clinical Insights Into and From Multimodal Enterovirus Surveillance."
   photo: "/assets/img/speakers/kevin-messacar.jpg"
 
-# - slug: jan-albert
-#   name: "Prof. Jan Albert"
-#   role: "Session 5: Clinical Insights"
-#   affiliation: "Karolinska University Hospital (KI), Sweden"
-#   talk_title: "Integrating viral genomics into clinical care: lessons from enterovirus diagnostics and patient management."
-#   photo: "/assets/img/speakers/jan-albert.jpg"
+- slug: florian-zwagemaker
+  name: "Florian Zwagemaker"
+  role: "Bioinformatics & Tools"
+  affiliation: "National Institute for Public Health and the Environment (RIVM), Netherlands"
+  talk_title: "Ten Years of Modernizing Pathogen Data Infrastructure: How Scalable Platforms Enable Enterovirus Surveillance."
+  photo: "/assets/img/speakers/florian-zwagemaker.jpg"
 
 - slug: emma-hodcroft
   name: "Prof. Emma B. Hodcroft"
