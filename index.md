@@ -223,20 +223,21 @@ title: "Home"
       </div>
 
       <div class="panel panel--half">
-        <h3>Accommodation & costs</h3>
-        <p class="muted">Most participants will stay at Hotel Kloster Disentis, so meals, talks, and poster sessions all take place in the same location.</p>
-        <ul class="muted">
-          <li>Single, double, and triple rooms available*</li>
-          <li>All meals included</li>
-          <li>Simple, comfortable rooms in the monastery setting</li>
-          <li>A small number may be housed nearby (1-2 min walk away)</li>
+      <h3>Accommodation & costs</h3>
+      <p class="muted">Accommodation is arranged by the organizers. All participants will stay at <strong>Hotel Kloster Disentis</strong>, either in the main building or in the house next door, which is also part of the hotel. Meals, talks, and poster sessions all take place at the main venue.</p>
+      <ul class="muted">
+        <li>Single and double rooms available*</li>
+        <li>All meals included</li>
+        <li>Simple, comfortable rooms in the monastery setting</li>
+        <li>Some rooms are located in the house next door, a 1-2 minute walk from the main building</li>
+        <li>Room assignments will be provided at check-in and conference registration</li>
         </ul>
         <p class="muted">
           <strong>Registration covers accommodation, meals, materials, and workshops.</strong>
           Travel to Disentis is not included. We offered a limited number of travel grants for students with limited funds, but the application deadline has now passed.
         </p>
         <p class="muted">
-          <i>* Student registration will be housed in double and triple rooms</i>
+          <i>*Students will be housed in double rooms</i>
         </p>
 
         <h3 style="margin-top:18px;">Accessibility</h3>
