@@ -17,11 +17,11 @@ tiers:
         logo: /assets/img/sponsors/Novartis.svg
         url: https://www.novartis.com/
 
-  - name: "Gold"
-    sponsors:
-      - name: "Become a Gold Sponsor!"
-      - name: "Become a Gold Sponsor!"
-      - name: "Become a Gold Sponsor!"
+  # - name: "Gold"
+  #   sponsors:
+  #     - name: "Become a Gold Sponsor!"
+  #     - name: "Become a Gold Sponsor!"
+  #     - name: "Become a Gold Sponsor!"
 
   - name: "Silver"
     sponsors:
@@ -31,8 +31,6 @@ tiers:
       - name: "Nikon BioImaging Lab"
         logo: "/assets/img/sponsors/Nikon.png"
         url: "https://www.microscope.healthcare.nikon.com/en_EU/bioimaging-centers/nikon-bioimaging-labs/europe"
-      - name: "Become a Silver Sponsor!"
-      - name: "Become a Silver Sponsor!"
 
   - name: "Bronze"
     sponsors:
@@ -42,5 +40,3 @@ tiers:
       - name: "Microsynth"
         logo: "/assets/img/sponsors/Microsynth.png"
         url: "https://www.microsynth.com/"
-      - name: "Become a Bronze Sponsor!"
-      - name: "Become a Bronze Sponsor!"
