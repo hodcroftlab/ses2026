@@ -5,15 +5,8 @@
   name: "Dr. Heli Harvala"
   role: "Opening Keynote"
   affiliation: "University of Turku and Turku University Hospital, Finland & co-founder of ENPEN"
-  talk_title: "Enterovirus surveillance in Europe: integrating clinical, environmental, and genomic data for outbreak preparedness."
+  talk_title: "Enteroviruses - Harmless Fellow Passengers or Next Disease X?"
   photo: "/assets/img/speakers/heli-harvala.jpg"
-
-# - slug: thea-kolsen-fischer
-#   name: "Prof. Thea Kølsen Fischer"
-#   role: "Keynote"
-#   affiliation: "Co-founder of the European Non-Polio Enterovirus Network (ENPEN)"
-#   talk_title: "Global patterns of enterovirus circulation and the role of ENPEN in strengthening European surveillance."
-#   photo: "/assets/img/speakers/thea-kolsen-fischer.jpg"
 
 - slug: javier-martin
   name: "Dr. Javier Martin-Gonzalez"
@@ -26,25 +19,25 @@
   name: "Prof. Katharina Röltgen"
   role: "Epidemiology & Surveillance II"
   affiliation: "Swiss Tropical and Public Health Institute (Swiss TPH), Switzerland"
-  talk_title: "Humoral immunity to enteroviruses across diverse serum cohorts from Switzerland, Ghana, and Tanzania."
+  talk_title: "Reading Infection Histories From Antibodies: Longitudinal Serology From SARS-CoV-2 to Enteroviruses"
   photo: "/assets/img/speakers/katharina-roeltgen.jpg"
 
 - slug: kevin-messacar
   name: "Prof. Kevin Messacar"
   role: "Clinical Insights"
   affiliation: "University of Colorado School of Medicine, USA"
-  talk_title: "A Two-Way Lens: Clinical Insights Into and From Multimodal Enterovirus Surveillance."
+  talk_title: "A Two-Way Lens: Clinical Insights Into and From Multimodal Enterovirus Surveillance"
   photo: "/assets/img/speakers/kevin-messacar.jpg"
 
 - slug: florian-zwagemaker
   name: "Florian Zwagemaker"
   role: "Bioinformatics & Tools"
   affiliation: "National Institute for Public Health and the Environment (RIVM), Netherlands"
-  talk_title: "Ten Years of Modernizing Pathogen Data Infrastructure: How Scalable Platforms Enable Enterovirus Surveillance."
+  talk_title: "Ten Years of Modernizing Pathogen Data Infrastructure: How Scalable Platforms Enable Enterovirus Surveillance"
   photo: "/assets/img/speakers/florian-zwagemaker.jpg"
 
-- slug: emma-hodcroft
-  name: "Prof. Emma B. Hodcroft"
-  role: "Closing Keynote"
-  affiliation: "Swiss Tropical and Public Health Institute (Swiss TPH), Switzerland"
-  photo: "/assets/img/speakers/emma-hodcroft.jpg"
+# - slug: emma-hodcroft
+#   name: "Prof. Emma B. Hodcroft"
+#   role: "Closing Keynote"
+#   affiliation: "Swiss Tropical and Public Health Institute (Swiss TPH), Switzerland"
+#   photo: "/assets/img/speakers/emma-hodcroft.jpg"

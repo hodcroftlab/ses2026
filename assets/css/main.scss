@@ -237,8 +237,11 @@ a:hover {
 .speaker{
   display:flex;
   gap: 16px;
-  padding: 16px;
-  align-items: center;
+  padding: 20px;
+  align-items: flex-start;
+  height: 100%;
+  min-height: 160px;
+  box-sizing: border-box;
 }
 .speaker__photo{
   width: 78px;
@@ -246,6 +249,8 @@ a:hover {
   border-radius: 999px;
   object-fit: cover;
   border: 2px solid rgba(176,139,98,0.35);
+  align-self: center;
+  flex: 0 0 auto;
 }
 .speaker__name{ font-weight: 900; }
 .speaker__role{ font-weight: 700; color: var(--muted); font-size: 13px; margin-top: 2px; }

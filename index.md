@@ -171,8 +171,7 @@ title: "Home"
 <section id="speakers" class="section">
   <div class="container">
     <div class="section__head">
-      <h2>Confirmed speakers</h2>
-      <p class="section__sub"><i>Stay tuned as we confirm more speakers!</i></p>
+      <h2>Keynote speakers</h2>
     </div>
 
     <div class="grid">
