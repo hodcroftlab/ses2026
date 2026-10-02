@@ -1,30 +1,68 @@
+<p class="note">
+  Our programme aims to combine world-class plenaries, submitted talks, and
+  interactive poster and discussion sessions, finalized by a skill-building
+  workshop.
+</p>
+<ul>
+  <li class="note">
+    You can find the abstract book here:
+    <a
+      href="/assets/docs/SES2026-abstract-book.pdf"
+      target="_blank"
+      rel="noopener noreferrer"
+      >SES 2026 Abstract Book</a
+    >
+  </li>
+  <li class="note">
+    You can find the latest detailed programme here:
+    <a
+      href="/assets/docs/SES2026-programme-detailed.pdf"
+      target="_blank"
+      rel="noopener noreferrer"
+      >SES 2026 Full Programme</a
+    >
+  </li>
+  <li class="note">
+    You can also find an overview of the programme here:
+    <a
+      href="/assets/docs/SES2026-programme-overview.pdf"
+      target="_blank"
+      rel="noopener noreferrer"
+      >SES 2026 Programme at a Glance</a
+    >
+  </li>
+</ul>
+<p class="note">
+  Times in the table below are approximate and subject to change; for the latest
+  schedule please refer to the programmes above.
+</p>
 <div class="table-wrap" role="region" aria-label="Programme overview table">
   <table class="table">
     <thead>
       <tr>
         <th>Time</th>
         {% for day in site.data.program.days %}
-          <th>{{ day.label }}</th>
+        <th>{{ day.label }}</th>
         {% endfor %}
       </tr>
     </thead>
     <tbody>
       {% for row in site.data.program.rows %}
-        <tr>
-          <td class="time">{{ row.time }}</td>
-          {% for cell in row.cells %}
-            <td>
-              {% if cell.title %}
-                <div class="cell__title">{{ cell.title }}</div>
-                {% if cell.subtitle %}<div class="cell__sub">{{ cell.subtitle }}</div>{% endif %}
-              {% else %}
-                <span class="muted">—</span>
-              {% endif %}
-            </td>
-          {% endfor %}
-        </tr>
+      <tr>
+        <td class="time">{{ row.time }}</td>
+        {% for cell in row.cells %}
+        <td>
+          {% if cell.title %}
+          <div class="cell__title">{{ cell.title }}</div>
+          {% if cell.subtitle %}
+          <div class="cell__sub">{{ cell.subtitle }}</div>
+          {% endif %} {% else %}
+          <span class="muted">—</span>
+          {% endif %}
+        </td>
+        {% endfor %}
+      </tr>
       {% endfor %}
     </tbody>
   </table>
 </div>
-<p class="note">Times in this programme overview are approximate and subject to change; find the latest detailed programme here: <a href="/assets/docs/ses2026-programme.pdf">programme</a>.</p>

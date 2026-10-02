@@ -5,9 +5,13 @@
       <span class="nav__brand-subtitle">{{ site.event.dates }} · {{ site.event.location_short }}</span>
     </a>
 
-    <nav class="nav__links" aria-label="Primary">
+    <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav__links" id="nav-links" aria-label="Primary">
       <a href="#about">About</a>
-      <a href="#program">Program</a>
+      <a href="#program">Programme</a>
       <a href="#speakers">Speakers</a>
       <a href="#venue">Venue</a>
       <a href="#sponsors">Sponsors</a>

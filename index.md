@@ -32,10 +32,12 @@ title: "Home"
           {% if site.event.submissions.registration.enabled %}
             <a class="btn btn--ghost" href="{{ site.event.submissions.registration.url }}" target="_blank" rel="noopener">Register</a>
           {% endif %}
-          <a class="btn btn--ghost" href="#program">View program</a>
+          <a class="btn btn--ghost" href="#program">View programme</a>
           <a class="btn btn--ghost" href="#speakers">Speakers</a>
           <a class="btn btn--ghost" href="#venue">Venue</a>
-          <a class="btn btn--ghost" href="{{ '/assets/docs/abstract_book.pdf' | relative_url }}" target="_blank" rel="noopener">Abstract book</a>
+          <a class="btn btn--ghost" href="{{ '/assets/docs/SES2026-abstract-book.pdf' | relative_url }}" target="_blank" rel="noopener">Abstract book</a>
+          <a class="btn btn--ghost" href="{{ '/assets/docs/SES2026-programme-detailed.pdf' | relative_url }}" target="_blank" rel="noopener">Full programme</a>
+          <a class="btn btn--ghost" href="{{ '/assets/docs/SES2026-programme-overview.pdf' | relative_url }}" target="_blank" rel="noopener">Programme at a glance</a>
           <a class="btn btn--ghost" href="#contact">Contact</a>
         </div>
       </div>
@@ -49,9 +51,6 @@ title: "Home"
   <div class="container">
     <div class="section__head">
       <h2>Submissions &amp; Registration</h2>
-      <p class="section__sub">
-        Use the links below to register, submit an abstract, or apply for a travel grant.
-      </p>
     </div>
 
     <div class="grid">
@@ -122,8 +121,8 @@ title: "Home"
   <div class="container">
     <div class="section__head">
       <h2>About</h2>
-      <p class="section__sub">A focused meeting uniting virology, epidemiology, bioinformatics, and clinical science to drive progress in enterovirus research and surveillance.</p>
     </div>
+    <p class="note">A focused meeting uniting virology, epidemiology, bioinformatics, and clinical science to drive progress in enterovirus research and surveillance.</p>
 
 <div class="grid">
   <div class="panel panel--half">
@@ -162,8 +161,7 @@ title: "Home"
 <section id="program" class="section">
   <div class="container">
     <div class="section__head">
-      <h2>Programme overview</h2>
-      <p class="section__sub">Our programme aims to combine world-class plenaries, submitted talks, and interactive poster and discussion sessions, finalized by a skill-building workshop.</p>
+      <h2>Programme</h2>
     </div>
     {% include program_table.html %}
   </div>
@@ -189,9 +187,8 @@ title: "Home"
   <div class="container">
     <div class="section__head">
       <h2>Venue</h2>
-      <p class="section__sub">The symposium will take place at a former monastery in Disentis, offering a beautiful setting for discussions and informal exchange.</p>
     </div>
-
+    <p class="note">The symposium will take place at a former monastery in Disentis, offering a beautiful setting for discussions and informal exchange.</p>
     <div class="grid">
       <div class="panel panel--half">
         <h3>Location</h3>
@@ -271,9 +268,8 @@ title: "Home"
   <div class="container">
     <div class="section__head">
       <h2>Sponsors</h2>
-      <p class="section__sub">We thank our partners for supporting enterovirus research and collaboration.</p>
     </div>
-
+    <p class="note">We thank our partners for supporting enterovirus research and collaboration.</p>
     {% for tier in site.data.sponsors.tiers %}
       <div class="panel" style="margin-bottom:18px;">
         <h3 style="margin-top:0;">{{ tier.name }}</h3>
@@ -297,9 +293,8 @@ title: "Home"
   <div class="container">
     <div class="section__head">
       <h2>Contact</h2>
-      <p class="section__sub">Questions? Get in touch with the organizing committee.</p>
     </div>
-
+    <p class="note">Questions? Get in touch with the organizing committee.</p>
     <div class="grid">
       <div class="panel panel--half">
         <h3>Organizers</h3>
