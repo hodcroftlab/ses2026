@@ -68,6 +68,18 @@ a:hover {
 .nav__links{ display:flex; align-items:center; gap: 14px; font-weight:600;}
 .nav__links a{ padding: 8px 10px; border-radius: 12px;color: var(--ink); border-bottom: none;}
 .nav__links a:hover{ background: rgba(42,167,184,0.10); text-decoration:none; color: var(--ink); }
+.nav__toggle{ display:none; padding: 10px; background: none; border: 1px solid var(--line); border-radius: 12px; cursor: pointer; touch-action: manipulation; }
+.nav__toggle span{ display:block; width: 20px; height: 2px; background: var(--ink); border-radius: 2px; transition: transform .3s, opacity .3s; }
+.nav__toggle span + span{ margin-top: 5px; }
+.nav--open .nav__toggle span:nth-child(1){ transform: translateY(7px) rotate(45deg); }
+.nav--open .nav__toggle span:nth-child(2){ opacity: 0; }
+.nav--open .nav__toggle span:nth-child(3){ transform: translateY(-7px) rotate(-45deg); }
+@media (max-width: 859px){
+  .nav__inner{ flex-wrap: wrap; row-gap: 0; }
+  .nav__toggle{ display:block; }
+  .nav__links{ width: 100%; flex-direction: column; align-items: stretch; gap: 4px; max-height: 0; overflow: hidden; visibility: hidden; transition: max-height .3s ease, margin-top .3s ease, visibility 0s .3s; }
+  .nav--open .nav__links{ max-height: 400px; margin-top: 10px; visibility: visible; transition-delay: 0s; }
+}
 
 /* Banner */
 .banner{
@@ -199,11 +211,6 @@ a:hover {
    font-size: 28px;
    letter-spacing: -0.2px;
    color: var(--ink);  
-}
-.section__sub{
-  margin: 0;
-  color: var(--muted);
-  max-width: 70ch;
 }
 .grid{
   display:grid;

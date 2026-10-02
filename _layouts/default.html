@@ -30,6 +30,20 @@
           history.pushState(null, "", id);
         });
       });
+
+      // Mobile nav toggle
+      const nav = document.querySelector('.nav');
+      const navToggle = document.querySelector('.nav__toggle');
+      navToggle.addEventListener('click', () => {
+        const open = nav.classList.toggle('nav--open');
+        navToggle.setAttribute('aria-expanded', open);
+      });
+      document.querySelectorAll('.nav__links a').forEach(a => {
+        a.addEventListener('click', () => {
+          nav.classList.remove('nav--open');
+          navToggle.setAttribute('aria-expanded', false);
+        });
+      });
     </script>
   </body>
 </html>
