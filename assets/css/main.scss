@@ -77,8 +77,8 @@ a:hover {
 @media (max-width: 859px){
   .nav__inner{ flex-wrap: wrap; row-gap: 0; }
   .nav__toggle{ display:block; }
-  .nav__links{ width: 100%; flex-direction: column; align-items: stretch; gap: 4px; max-height: 0; overflow: hidden; transition: max-height .3s ease, margin-top .3s ease; }
-  .nav--open .nav__links{ max-height: 400px; margin-top: 10px; }
+  .nav__links{ width: 100%; flex-direction: column; align-items: stretch; gap: 4px; max-height: 0; overflow: hidden; visibility: hidden; transition: max-height .3s ease, margin-top .3s ease, visibility 0s .3s; }
+  .nav--open .nav__links{ max-height: 400px; margin-top: 10px; visibility: visible; transition-delay: 0s; }
 }
 
 /* Banner */
